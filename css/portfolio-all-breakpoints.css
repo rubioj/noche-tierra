@@ -1,0 +1,477 @@
+/* screen - mobile-home-2 */
+
+.mobile-home-2 {
+  align-items: center;
+  background-color: var(--white);
+  display: flex;
+  flex-direction: column;
+  height: 2224px;
+  padding: 16px 10px;
+  width: 390px;
+}
+
+.mobile-home-2 .group-container {
+  align-self: flex-start;
+  gap: 94px;
+  min-width: 366px;
+}
+
+.mobile-home-2 .overlap-group-2 {
+  height: 161px;
+  position: relative;
+  width: 231px;
+}
+
+.mobile-home-2 .rubiojp_logo_vector_-2 {
+  height: 132px;
+  left: 0;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  width: 141px;
+}
+
+.mobile-home-2 .title-2 {
+  left: 0;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 124px;
+  white-space: nowrap;
+  width: 231px;
+}
+
+.mobile-home-2 .rooster-color-1-1 {
+  height: 356px;
+  margin-top: 344px;
+  object-fit: cover;
+  width: 292px;
+}
+
+.mobile-home-2 .el_che_cigar_256-1-1 {
+  height: 356px;
+  margin-top: 58px;
+  object-fit: cover;
+  width: 292px;
+}
+
+.mobile-home-2 .mobile-home-2-item {
+  height: 356px;
+  margin-top: 40px;
+  object-fit: cover;
+  width: 292px;
+}
+/* screen - portfolio-all-breakpoints */
+
+.portfolio-all-breakpoints {
+  align-items: flex-start;
+  background-color: var(--white);
+  display: flex;
+  flex-direction: column;
+  height: 982px;
+  overflow: hidden;
+  padding: 8px 0;
+  width: 1512px;
+}
+
+.portfolio-all-breakpoints .overlap-group-container {
+  align-items: flex-end;
+  display: flex;
+  gap: 220px;
+  margin-left: 10px;
+  margin-top: 2px;
+  min-width: 1390px;
+}
+
+.portfolio-all-breakpoints .overlap-group10 {
+  height: 155px;
+  position: relative;
+  width: 917px;
+}
+
+.portfolio-all-breakpoints .overlap-group8 {
+  height: 142px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 657px;
+}
+
+.portfolio-all-breakpoints .rubiojp_logo_vector_ {
+  height: 142px;
+  left: 0;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  width: 174px;
+}
+
+.portfolio-all-breakpoints .title {
+  left: 40px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 11px;
+  width: 617px;
+}
+
+.portfolio-all-breakpoints .navbar {
+  align-items: flex-start;
+  display: inline-flex;
+  left: 174px;
+  position: absolute;
+  top: 109px;
+}
+
+.portfolio-all-breakpoints .navbar-link-place {
+  cursor: pointer;
+  height: 46px;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-top: -1.00px;
+  position: relative;
+  text-align: center;
+  width: 174px;
+}
+
+.portfolio-all-breakpoints .navbar-link-portfolio {
+  cursor: pointer;
+  height: 46px;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-top: -1.00px;
+  position: relative;
+  text-align: center;
+  width: 221px;
+}
+
+.portfolio-all-breakpoints .navbar-link {
+  height: 46px;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-top: -1.00px;
+  position: relative;
+  text-align: center;
+  width: 174px;
+}
+
+.portfolio-all-breakpoints .overlap-group6 {
+  height: 41px;
+  margin-bottom: 15px;
+  position: relative;
+  width: 253px;
+}
+
+.portfolio-all-breakpoints .overlap-group {
+  height: 41px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 251px;
+}
+
+.portfolio-all-breakpoints .explore-art-in-all-i {
+  align-self: center;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-left: 15.0px;
+  margin-top: 12px;
+  min-height: 112px;
+  width: 1351px;
+}
+
+.portfolio-all-breakpoints .group-3 {
+  align-items: flex-start;
+  display: flex;
+  margin-top: 20px;
+  min-width: 641px;
+}
+
+.portfolio-all-breakpoints .navbar-link-container {
+  height: 46px;
+  position: relative;
+  width: 631px;
+}
+
+.portfolio-all-breakpoints .navbar-link-all {
+  left: 0;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 0;
+  width: 174px;
+}
+
+.portfolio-all-breakpoints .navbar-link-oils {
+  left: 59px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 0;
+  width: 221px;
+}
+
+.portfolio-all-breakpoints .navbar-link-prints {
+  left: 337px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 0;
+  width: 174px;
+}
+
+.portfolio-all-breakpoints .navbar-link-photos {
+  left: 457px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 0;
+  width: 174px;
+}
+
+.portfolio-all-breakpoints .navbar-link-watercolors {
+  left: 210px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 0;
+  width: 174px;
+}
+
+.portfolio-all-breakpoints .flex-row {
+  align-items: flex-start;
+  align-self: center;
+  display: flex;
+  gap: 32px;
+  height: 363px;
+  margin-top: 52px;
+  min-width: 1294px;
+}
+
+.portfolio-all-breakpoints .overlap-group7 {
+  height: 356px;
+  position: relative;
+  width: 322px;
+}
+
+.portfolio-all-breakpoints .frame-1 {
+  height: 263px;
+  left: 0;
+  position: absolute;
+  top: 12px;
+  width: 313px;
+}
+
+.portfolio-all-breakpoints .virgen-1 {
+  height: 356px;
+  left: 30px;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  width: 292px;
+}
+
+.portfolio-all-breakpoints .flex-row-item {
+  align-self: flex-end;
+  height: 356px;
+  object-fit: cover;
+  width: 292px;
+}
+
+.portfolio-all-breakpoints .hpim1656-1 {
+  height: 356px;
+  object-fit: cover;
+  width: 292px;
+}
+
+.portfolio-all-breakpoints .overlap-group-container-1 {
+  height: 59px;
+  margin-left: -49px;
+  margin-top: 132px;
+  position: relative;
+  width: 1561px;
+}
+
+.portfolio-all-breakpoints .overlap-group5 {
+  height: 48px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 1561px;
+}
+
+.portfolio-all-breakpoints .line-2 {
+  left: 49px;
+  position: absolute;
+  top: 0;
+}
+
+.portfolio-all-breakpoints .newsletter {
+  left: 0;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 0;
+  white-space: nowrap;
+  width: 329px;
+}
+
+.portfolio-all-breakpoints .overlap-group1 {
+  align-items: flex-start;
+  background-color: var(--white);
+  border: 1px solid;
+  border-color: var(--black);
+  border-radius: 25px;
+  display: flex;
+  height: 30px;
+  left: 299px;
+  min-width: 197px;
+  padding: 1px 11.3px;
+  position: absolute;
+  top: 18px;
+}
+
+.portfolio-all-breakpoints .overlap-group2 {
+  align-items: flex-start;
+  background-color: var(--white);
+  border: 1px solid;
+  border-color: var(--black);
+  border-radius: 25px;
+  display: flex;
+  height: 30px;
+  left: 536px;
+  min-width: 197px;
+  padding: 1px 11.3px;
+  position: absolute;
+  top: 18px;
+}
+
+.portfolio-all-breakpoints .place {
+  letter-spacing: 0;
+  line-height: normal;
+  min-height: 25px;
+  width: 167px;
+}
+
+.portfolio-all-breakpoints .overlap-group3 {
+  height: 41px;
+  left: 762px;
+  position: absolute;
+  top: 18px;
+  width: 251px;
+}
+/* screen - portfolio-ipad */
+
+.portfolio-ipad {
+  align-items: center;
+  background-color: var(--white);
+  display: flex;
+  flex-direction: column;
+  height: 1194px;
+  padding: 64px 53px;
+  width: 834px;
+}
+
+.portfolio-ipad .overlap-group-1 {
+  align-self: flex-start;
+  height: 112px;
+  position: relative;
+  width: 651px;
+}
+
+.portfolio-ipad .frame-2 {
+  align-items: flex-start;
+  display: flex;
+  height: 36px;
+  left: 79px;
+  position: absolute;
+  top: 76px;
+  width: 572px;
+}
+
+.portfolio-ipad .place-1 {
+  height: 46px;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-bottom: -9.00px;
+  margin-top: -1.00px;
+  position: relative;
+  text-align: center;
+  width: 174px;
+}
+
+.portfolio-ipad .portfolio {
+  cursor: pointer;
+  height: 46px;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-bottom: -9.00px;
+  margin-top: -1.00px;
+  position: relative;
+  text-align: center;
+  width: 221px;
+}
+
+.portfolio-ipad .flex-row-1 {
+  align-items: flex-start;
+  display: flex;
+  gap: 103px;
+  height: 358px;
+  margin-right: 3.0px;
+  margin-top: 114px;
+  min-width: 687px;
+}
+
+.portfolio-ipad .rooster-color-1 {
+  height: 356px;
+  object-fit: cover;
+  width: 292px;
+}
+
+.portfolio-ipad .el_che_cigar_256-1 {
+  align-self: flex-end;
+  height: 356px;
+  object-fit: cover;
+  width: 292px;
+}
+
+.portfolio-ipad .we-invite-you-to-exp {
+  letter-spacing: 0;
+  line-height: normal;
+  margin-left: 18.0px;
+  margin-top: 168px;
+  min-height: 276px;
+  width: 668px;
+}
+@media screen and (max-width: 833px) {
+  .screen.portfolio-all-breakpoints { 
+    display: none;
+   }
+  .screen.portfolio-ipad { 
+    display: none;
+   }
+}
+@media screen and (min-width: 834px) and (max-width: 1511px) {
+  .screen.portfolio-all-breakpoints { 
+    display: none;
+   }
+  .screen.mobile-home-2 { 
+    display: none;
+   }
+}
+@media screen and (min-width: 1512px) {
+  .screen.portfolio-ipad { 
+    display: none;
+   }
+  .screen.mobile-home-2 { 
+    display: none;
+   }
+}

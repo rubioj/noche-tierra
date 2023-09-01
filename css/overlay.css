@@ -1,0 +1,93 @@
+/* screen - overlay */
+
+.overlay {
+  align-items: flex-start;
+  display: flex;
+  height: 777px;
+  min-width: 376px;
+}
+
+#overlay-overlay {
+  align-items: start;
+  background-color: #ffffff00;
+  justify-content: flex-start;
+}
+
+.overlay .overlay-1 {
+  align-items: flex-start;
+  background-color: var(--white);
+  display: flex;
+  flex-direction: column;
+  min-height: 777px;
+  width: 376px;
+}
+
+.overlay .iconography-caesarzkn {
+  align-self: flex-end;
+  cursor: pointer;
+  height: 43px;
+  margin-right: 0;
+  margin-top: 1px;
+  width: 41px;
+}
+
+.overlay .frame-5 {
+  align-items: flex-start;
+  display: inline-flex;
+  flex-direction: column;
+  margin-top: 4px;
+  position: relative;
+}
+
+.overlay .place {
+  cursor: pointer;
+  margin-top: -1.00px;
+  width: 131px;
+}
+
+.overlay .portfolio {
+  cursor: pointer;
+  height: 46px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: relative;
+  text-align: center;
+  width: 166px;
+}
+
+.overlay .place-1 {
+  width: 153px;
+}
+
+.overlay .overlap-group {
+  align-items: flex-end;
+  background-image: url(../img/snoqualmie-2-3.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  display: flex;
+  height: 586px;
+  justify-content: flex-end;
+  margin-top: 5px;
+  min-width: 390px;
+  padding: 227px 47px;
+}
+
+.overlay .art-in-conversation-with-nature {
+  color: var(--black);
+  font-family: var(--font-family-fjord-one);
+  font-size: var(--font-size-m);
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: normal;
+  min-height: 84px;
+  text-align: center;
+  width: 286px;
+}
+
+.overlay .place-2 {
+  height: 46px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: relative;
+  text-align: center;
+}

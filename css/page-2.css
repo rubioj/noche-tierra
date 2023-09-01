@@ -1,0 +1,200 @@
+/* screen - page-2 */
+
+.page-2 {
+  align-items: flex-start;
+  background-color: var(--white);
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  height: 982px;
+  padding: 10px 0;
+  width: 1512px;
+}
+
+.page-2 .overlap-group-container {
+  align-items: flex-end;
+  display: flex;
+  gap: 220px;
+  margin-left: 10px;
+  min-width: 1390px;
+}
+
+.page-2 .overlap-group9 {
+  height: 155px;
+  position: relative;
+  width: 917px;
+}
+
+.page-2 .overlap-group6 {
+  height: 142px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 657px;
+}
+
+.page-2 .rubiojp_logo_vector_ {
+  height: 142px;
+  left: 0;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  width: 174px;
+}
+
+.page-2 .title {
+  left: 40px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 11px;
+  width: 617px;
+}
+
+.page-2 .navbar {
+  align-items: flex-start;
+  display: inline-flex;
+  left: 174px;
+  position: absolute;
+  top: 109px;
+}
+
+.page-2 .navbar-link {
+  height: 46px;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-top: -1.00px;
+  position: relative;
+  text-align: center;
+  width: 174px;
+}
+
+.page-2 .navbar-link-portfolio {
+  cursor: pointer;
+  height: 46px;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-top: -1.00px;
+  position: relative;
+  text-align: center;
+  width: 221px;
+}
+
+.page-2 .overlap-group7 {
+  height: 41px;
+  margin-bottom: 15px;
+  position: relative;
+  width: 253px;
+}
+
+.page-2 .overlap-group {
+  height: 41px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 251px;
+}
+
+.page-2 .overlap-group5 {
+  align-items: flex-start;
+  align-self: center;
+  background-image: url(../img/snoqualmie-1.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  display: flex;
+  margin-left: 1.0px;
+  margin-top: 66px;
+  min-width: 947px;
+}
+
+.page-2 .snoqualmie-2 {
+  height: 603px;
+  object-fit: cover;
+  width: 947px;
+}
+
+.page-2 .overlap-group-container-1 {
+  height: 61px;
+  margin-top: 61px;
+  position: relative;
+  width: 1512px;
+}
+
+.page-2 .overlap-group4 {
+  height: 53px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 1512px;
+}
+
+.page-2 .line-2 {
+  left: 0;
+  position: absolute;
+  top: 7px;
+}
+
+.page-2 .newsletter {
+  left: 20px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 0;
+  white-space: nowrap;
+  width: 329px;
+}
+
+.page-2 .overlap-group1 {
+  align-items: flex-start;
+  background-color: var(--white);
+  border: 1px solid;
+  border-color: var(--black);
+  border-radius: 25px;
+  display: flex;
+  height: 30px;
+  left: 339px;
+  min-width: 197px;
+  padding: 1px 11.3px;
+  position: absolute;
+  top: 23px;
+}
+
+.page-2 .overlap-group-container-2 {
+  height: 41px;
+  left: 569px;
+  position: absolute;
+  top: 20px;
+  width: 447px;
+}
+
+.page-2 .overlap-group2 {
+  align-items: flex-start;
+  background-color: var(--white);
+  border: 1px solid;
+  border-color: var(--black);
+  border-radius: 25px;
+  display: flex;
+  height: 30px;
+  left: 0;
+  min-width: 197px;
+  padding: 1px 11.3px;
+  position: absolute;
+  top: 4px;
+}
+
+.page-2 .place {
+  letter-spacing: 0;
+  line-height: normal;
+  min-height: 25px;
+  width: 167px;
+}
+
+.page-2 .overlap-group3 {
+  height: 41px;
+  left: 196px;
+  position: absolute;
+  top: 0;
+  width: 251px;
+}

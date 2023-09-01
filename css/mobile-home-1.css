@@ -1,0 +1,50 @@
+/* screen - mobile-home-1 */
+
+.mobile-home-1 {
+  align-items: center;
+  background-color: var(--white);
+  display: flex;
+  flex-direction: column;
+  gap: 31px;
+  height: 844px;
+  padding: 16px 0;
+  width: 390px;
+}
+
+.mobile-home-1 .group-container {
+  gap: 94px;
+  margin-right: 4.0px;
+  min-width: 366px;
+}
+
+.mobile-home-1 .overlap-group {
+  height: 161px;
+  position: relative;
+  width: 231px;
+}
+
+.mobile-home-1 .rubiojp_logo_vector_ {
+  height: 132px;
+  left: 0;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  width: 141px;
+}
+
+.mobile-home-1 .title {
+  left: 0;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 124px;
+  white-space: nowrap;
+  width: 231px;
+}
+
+.mobile-home-1 .snoqualmie-2 {
+  height: 586px;
+  object-fit: cover;
+  width: 376px;
+}

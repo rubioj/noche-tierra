@@ -1,0 +1,81 @@
+/* screen - mobile-landscape */
+
+.mobile-landscape {
+  align-items: flex-start;
+  background-color: var(--white);
+  display: flex;
+  flex-direction: column;
+  gap: 45px;
+  height: 390px;
+  padding: 0 7px;
+  width: 844px;
+}
+
+.mobile-landscape .overlap-group1 {
+  margin-top: 31px;
+  position: relative;
+}
+
+.mobile-landscape .overlap-group {
+  left: 0;
+  position: absolute;
+  top: 0;
+}
+
+.mobile-landscape .rubiojp_logo_vector_ {
+  height: 132px;
+  left: 0;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  width: 141px;
+}
+
+.mobile-landscape .navbar {
+  align-items: flex-start;
+  display: flex;
+  left: 113px;
+  position: absolute;
+  top: 86px;
+  width: 711px;
+}
+
+.mobile-landscape .navbar-link-place {
+  width: 174px;
+}
+
+.mobile-landscape .navbar-link-portfolio {
+  cursor: pointer;
+  width: 221px;
+}
+
+.mobile-landscape .title {
+  left: 141px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 19px;
+  white-space: nowrap;
+  width: 231px;
+}
+
+.mobile-landscape .snoqualmie-2 {
+  height: 182px;
+  object-fit: cover;
+  width: 828px;
+}
+
+.mobile-landscape .navbar-link {
+  height: 46px;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-top: -1.00px;
+  position: relative;
+  text-align: center;
+}
+
+.mobile-landscape .overlap {
+  height: 132px;
+  width: 824px;
+}

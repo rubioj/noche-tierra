@@ -1,0 +1,60 @@
+/* screen - frame-3 */
+
+.frame-3 {
+  align-items: flex-start;
+  background-color: var(--white);
+  display: flex;
+  flex-direction: column;
+  height: 794.25px;
+  overflow: hidden;
+  width: 851.68px;
+}
+
+.frame-3 .navbar {
+  align-items: flex-start;
+  display: flex;
+  margin-left: -234.06px;
+  margin-top: 340px;
+  position: relative;
+  transform: rotate(-89.44deg);
+  width: 711px;
+}
+
+.frame-3 .navbar-link-place {
+  width: 174px;
+}
+
+.frame-3 .navbar-link-portfolio {
+  cursor: pointer;
+  width: 221px;
+}
+
+.frame-3 .title {
+  letter-spacing: 0;
+  line-height: normal;
+  margin-left: -66.64px;
+  margin-top: 169px;
+  min-height: 37px;
+  text-align: center;
+  transform: rotate(-89.44deg);
+  white-space: nowrap;
+  width: 231px;
+}
+
+.frame-3 .rubiojp_logo_vector_ {
+  height: 132px;
+  margin-left: 4.03px;
+  margin-top: 103px;
+  object-fit: cover;
+  transform: rotate(-89.44deg);
+  width: 141px;
+}
+
+.frame-3 .navbar-link {
+  height: 46px;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-top: -1.00px;
+  position: relative;
+  text-align: center;
+}
