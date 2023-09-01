@@ -1,0 +1,101 @@
+/* screen - portfolio-mobile */
+
+.portfolio-mobile {
+  align-items: center;
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  height: 2224px;
+  padding: 16px 10px;
+  width: 390px;
+}
+
+.portfolio-mobile .group-container {
+  align-self: flex-start;
+  gap: 94px;
+  min-width: 366px;
+}
+
+.portfolio-mobile .overlap-group {
+  height: 161px;
+  position: relative;
+  width: 231px;
+}
+
+.portfolio-mobile .rubiojp_logo_vector_ {
+  height: 132px;
+  left: 0;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  width: 141px;
+}
+
+.portfolio-mobile .title {
+  color: #f4a261;
+  font-family: var(--font-family-ofelia_text-regular);
+  font-size: var(--font-size-l);
+  font-weight: 400;
+  left: 0;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 124px;
+  white-space: nowrap;
+  width: 231px;
+}
+
+.portfolio-mobile .group-7 {
+  cursor: pointer;
+  flex-direction: column;
+  gap: 5px;
+  min-height: 25px;
+  width: 41px;
+}
+
+.portfolio-mobile .group {
+  background-color: var(--donkey-brown);
+  cursor: pointer;
+  height: 5px;
+  width: 41px;
+}
+
+.portfolio-mobile .we-invite-you-to-exp {
+  color: var(--black);
+  font-family: var(--font-family-ofelia_text-regular);
+  font-size: var(--font-size-m);
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-right: 1.0px;
+  margin-top: 18px;
+  min-height: 112px;
+  width: 335px;
+}
+
+.portfolio-mobile .rooster-color-1 {
+  height: 356px;
+  margin-top: 214px;
+  object-fit: cover;
+  width: 292px;
+}
+
+.portfolio-mobile .el_che_cigar_256-1 {
+  height: 356px;
+  margin-top: 58px;
+  object-fit: cover;
+  width: 292px;
+}
+
+.portfolio-mobile .portfolio-mobile-item {
+  height: 356px;
+  margin-top: 40px;
+  object-fit: cover;
+  width: 292px;
+}
+
+.portfolio-mobile .group-1 {
+  align-items: flex-start;
+  display: flex;
+}
