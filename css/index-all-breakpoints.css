@@ -32,7 +32,7 @@
   width: 657px;
 }
 
-.index-all-breakpoints .rubiojp_logo_vector_-2 {
+.index-all-breakpoints .rubiojp_logo_vector_ {
   height: 142px;
   left: 0;
   object-fit: cover;
@@ -41,7 +41,7 @@
   width: 174px;
 }
 
-.index-all-breakpoints .title-2 {
+.index-all-breakpoints .title {
   left: 40px;
   letter-spacing: 0;
   line-height: normal;
@@ -87,7 +87,7 @@
   width: 251px;
 }
 
-.index-all-breakpoints .overlap-group-2 {
+.index-all-breakpoints .overlap-group {
   height: 41px;
   left: 0;
   position: absolute;
@@ -127,7 +127,7 @@
   width: 329px;
 }
 
-.index-all-breakpoints .overlap-group-3 {
+.index-all-breakpoints .overlap-group-1 {
   align-items: flex-start;
   background-color: var(--white);
   border: 1px solid;
@@ -166,7 +166,7 @@
   padding: 1px 11.3px;
 }
 
-.index-all-breakpoints .place-1 {
+.index-all-breakpoints .place {
   letter-spacing: 0;
   line-height: normal;
   min-height: 25px;
@@ -190,11 +190,31 @@
   width: 834px;
 }
 
-.ipad-pro-11u34-1 .overlap-group-1 {
+.ipad-pro-11u34-1 .overlap-group-3 {
   align-self: flex-start;
   height: 112px;
   position: relative;
   width: 650px;
+}
+
+.ipad-pro-11u34-1 .rubiojp_logo_vector_-2 {
+  height: 110px;
+  left: 0;
+  object-fit: cover;
+  position: absolute;
+  top: 2px;
+  width: 134px;
+}
+
+.ipad-pro-11u34-1 .title-2 {
+  left: 29px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 0;
+  white-space: nowrap;
+  width: 476px;
 }
 
 .ipad-pro-11u34-1 .frame-2 {
@@ -207,7 +227,7 @@
   width: 572px;
 }
 
-.ipad-pro-11u34-1 .place {
+.ipad-pro-11u34-1 .place-1 {
   height: 46px;
   letter-spacing: 0;
   line-height: normal;
@@ -339,13 +359,7 @@
   min-width: 366px;
 }
 
-.mobile-home .overlap-group {
-  height: 161px;
-  position: relative;
-  width: 231px;
-}
-
-.mobile-home .rubiojp_logo_vector_ {
+.mobile-home .rubiojp_logo_vector_-1 {
   height: 132px;
   left: 0;
   object-fit: cover;
@@ -354,7 +368,7 @@
   width: 141px;
 }
 
-.mobile-home .title {
+.mobile-home .title-1 {
   left: 0;
   letter-spacing: 0;
   line-height: normal;
@@ -371,10 +385,10 @@
   width: 376px;
 }
 @media screen and (max-width: 833px) {
-  .screen.ipad-pro-11u34-1 { 
+  .screen.index-all-breakpoints { 
     display: none;
    }
-  .screen.index-all-breakpoints { 
+  .screen.ipad-pro-11u34-1 { 
     display: none;
    }
   .screen.ipad-pro-11u34-2 { 
@@ -382,10 +396,10 @@
    }
 }
 @media screen and (min-width: 834px) and (max-width: 1193px) {
-  .screen.mobile-home { 
+  .screen.index-all-breakpoints { 
     display: none;
    }
-  .screen.index-all-breakpoints { 
+  .screen.mobile-home { 
     display: none;
    }
   .screen.ipad-pro-11u34-2 { 
@@ -393,13 +407,13 @@
    }
 }
 @media screen and (min-width: 1194px) and (max-width: 1511px) {
+  .screen.index-all-breakpoints { 
+    display: none;
+   }
   .screen.mobile-home { 
     display: none;
    }
   .screen.ipad-pro-11u34-1 { 
-    display: none;
-   }
-  .screen.index-all-breakpoints { 
     display: none;
    }
 }
