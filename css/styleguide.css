@@ -1,17 +1,13 @@
 :root { 
-  --akaroa: #d3c1a5;
   --black: #000000;
-  --donkey-brown: #a68f79;
   --kabul: #574b3f;
   --kabul-2: #574a3e;
-  --sandy-brown: #f4a261;
   --white: #ffffff;
  
   --font-size-l: 36px;
   --font-size-m: 24px;
   --font-size-s: 16px;
   --font-size-xl: 48px;
-  --font-size-xxl: 96px;
  
   --font-family-fjord-one: "Fjord-One", Helvetica;
   --font-family-funkydori-regular: "Funkydori-Regular", Helvetica;
@@ -32,36 +28,4 @@
   font-size: var(--font-size-s);
   font-style: normal;
   font-weight: 700;
-}
-
-.ofeliatext-regular-normal-sandy-brown-48px {
-  color: var(--sandy-brown);
-  font-family: var(--font-family-ofelia_text-regular);
-  font-size: var(--font-size-xl);
-  font-style: normal;
-  font-weight: 400;
-}
-
-.ofeliatext-regular-normal-sandy-brown-36px {
-  color: var(--sandy-brown);
-  font-family: var(--font-family-ofelia_text-regular);
-  font-size: var(--font-size-l);
-  font-style: normal;
-  font-weight: 400;
-}
-
-.funkydori-regular-normal-kabul-36px {
-  color: var(--kabul);
-  font-family: var(--font-family-funkydori-regular);
-  font-size: var(--font-size-l);
-  font-style: normal;
-  font-weight: 400;
-}
-
-.ofeliatext-regular-normal-black-24px {
-  color: var(--black);
-  font-family: var(--font-family-ofelia_text-regular);
-  font-size: var(--font-size-m);
-  font-style: normal;
-  font-weight: 400;
 }
