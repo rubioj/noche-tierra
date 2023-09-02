@@ -82,38 +82,15 @@
   box-sizing: border-box;
 }
 
-.group-7 {
-  cursor: pointer;
-  flex-direction: column;
-  gap: 5px;
-  min-height: 25px;
-  width: 41px;
-}
-
-.group {
-  background-color: var(--donkey-brown);
-  cursor: pointer;
-  height: 5px;
-  width: 41px;
-}
-
-.group-1 {
+.navbar {
   align-items: flex-start;
-  display: flex;
+  display: inline-flex;
+  left: 174px;
+  position: absolute;
+  top: 109px;
 }
 
-.navbar-link-portfolio {
-  cursor: pointer;
-  height: 46px;
-  letter-spacing: 0;
-  line-height: normal;
-  margin-top: -1.00px;
-  position: relative;
-  text-align: center;
-  width: 221px;
-}
-
-.navbar-link {
+.navbar-link-store {
   height: 46px;
   letter-spacing: 0;
   line-height: normal;
@@ -133,16 +110,6 @@
   position: absolute;
   top: 0;
   width: 174px;
-}
-
-.instagram {
-  left: 0;
-  letter-spacing: 0;
-  line-height: normal;
-  position: absolute;
-  text-align: center;
-  top: 3px;
-  width: 251px;
 }
 
 .logoinstagram {
@@ -186,4 +153,45 @@
   height: 1px;
   object-fit: cover;
   width: 1512px;
+}
+
+.group-7 {
+  cursor: pointer;
+  flex-direction: column;
+  gap: 5px;
+  min-height: 25px;
+  width: 41px;
+}
+
+.group {
+  background-color: var(--donkey-brown);
+  cursor: pointer;
+  height: 5px;
+  width: 41px;
+}
+
+.group-1 {
+  align-items: flex-start;
+  display: flex;
+}
+
+.place-1 {
+  height: 46px;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-bottom: -9.00px;
+  margin-top: -1.00px;
+  position: relative;
+  text-align: center;
+  width: 174px;
+}
+
+.navbar-link {
+  height: 46px;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-top: -1.00px;
+  position: relative;
+  text-align: center;
+  width: 174px;
 }

@@ -52,12 +52,15 @@
   width: 617px;
 }
 
-.page-3 .navbar {
-  align-items: flex-start;
-  display: inline-flex;
-  left: 174px;
-  position: absolute;
-  top: 109px;
+.page-3 .navbar-link-portfolio {
+  cursor: pointer;
+  height: 46px;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-top: -1.00px;
+  position: relative;
+  text-align: center;
+  width: 221px;
 }
 
 .page-3 .overlap-group4 {
@@ -72,6 +75,16 @@
   left: 0;
   position: absolute;
   top: 0;
+  width: 251px;
+}
+
+.page-3 .instagram {
+  left: 0;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 3px;
   width: 251px;
 }
 
