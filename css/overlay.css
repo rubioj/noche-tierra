@@ -7,42 +7,37 @@
   min-width: 376px;
 }
 
-#overlay-overlay {
-  align-items: start;
-  background-color: #ffffff00;
-  justify-content: flex-start;
-}
-
 .overlay .overlay-1 {
-  align-items: flex-start;
-  background-color: var(--white);
+  align-items: flex-end;
+  background-color: #ffffff;
   display: flex;
   flex-direction: column;
+  gap: 15px;
   min-height: 777px;
   width: 376px;
 }
 
-.overlay .iconography-caesarzkn {
-  align-self: flex-end;
-  cursor: pointer;
-  height: 43px;
+.overlay .flex-row {
+  align-items: flex-start;
+  display: flex;
+  gap: 137px;
+  height: 175px;
   margin-right: 0;
   margin-top: 1px;
-  width: 41px;
+  min-width: 344px;
 }
 
 .overlay .frame-5 {
   align-items: flex-start;
+  align-self: flex-end;
   display: inline-flex;
   flex-direction: column;
-  margin-top: 4px;
   position: relative;
 }
 
 .overlay .place {
   cursor: pointer;
   margin-top: -1.00px;
-  width: 131px;
 }
 
 .overlay .portfolio {
@@ -51,12 +46,13 @@
   letter-spacing: 0;
   line-height: normal;
   position: relative;
-  text-align: center;
   width: 166px;
 }
 
-.overlay .place-1 {
-  width: 153px;
+.overlay .iconography-caesarzkn {
+  cursor: pointer;
+  height: 43px;
+  width: 41px;
 }
 
 .overlay .overlap-group {
@@ -67,7 +63,7 @@
   display: flex;
   height: 586px;
   justify-content: flex-end;
-  margin-top: 5px;
+  margin-right: -14px;
   min-width: 390px;
   padding: 227px 47px;
 }
@@ -89,5 +85,5 @@
   letter-spacing: 0;
   line-height: normal;
   position: relative;
-  text-align: center;
+  width: 166px;
 }
