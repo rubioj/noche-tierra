@@ -61,29 +61,30 @@
   width: 41px;
 }
 
-.portfolio-mobile .we-invite-you-to-exp {
+.portfolio-mobile .rooster-color-1 {
+  height: 356px;
+  margin-right: 12.0px;
+  margin-top: 67px;
+  object-fit: cover;
+  width: 292px;
+}
+
+.portfolio-mobile .we-invite-you-to-enj {
   color: var(--black);
   font-family: var(--font-family-ofelia_text-regular);
   font-size: var(--font-size-m);
   font-weight: 400;
   letter-spacing: 0;
   line-height: normal;
-  margin-right: 7.0px;
-  margin-top: 18px;
-  min-height: 305px;
-  width: 329px;
-}
-
-.portfolio-mobile .rooster-color-1 {
-  height: 356px;
-  margin-top: 21px;
-  object-fit: cover;
-  width: 292px;
+  margin-left: 12.0px;
+  margin-top: 92px;
+  min-height: 148px;
+  width: 246px;
 }
 
 .portfolio-mobile .el_che_cigar_256-1 {
   height: 356px;
-  margin-top: 58px;
+  margin-top: 95px;
   object-fit: cover;
   width: 292px;
 }
