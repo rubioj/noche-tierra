@@ -82,6 +82,35 @@
   box-sizing: border-box;
 }
 
+.navbar {
+  align-items: flex-start;
+  display: inline-flex;
+  left: 174px;
+  position: absolute;
+  top: 109px;
+}
+
+.navbar-link {
+  height: 46px;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-top: -1.00px;
+  position: relative;
+  text-align: center;
+  width: 174px;
+}
+
+.navbar-link-portfolio {
+  cursor: pointer;
+  height: 46px;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-top: -1.00px;
+  position: relative;
+  text-align: center;
+  width: 221px;
+}
+
 .rectangle-2 {
   background-color: var(--akaroa);
   border: 1px solid;
@@ -147,21 +176,6 @@
   width: 1512px;
 }
 
-.snoqualmie-1 {
-  align-self: center;
-  height: 603px;
-  margin-left: 1.0px;
-  margin-top: 67px;
-  object-fit: cover;
-  width: 947px;
-}
-
-.overlap-group-2 {
-  height: 161px;
-  position: relative;
-  width: 231px;
-}
-
 .group-7 {
   cursor: pointer;
   flex-direction: column;
@@ -182,7 +196,13 @@
   display: flex;
 }
 
-.navbar-link-store {
-  margin-right: -32.00px;
+.place-1 {
+  height: 46px;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-bottom: -9.00px;
+  margin-top: -1.00px;
+  position: relative;
+  text-align: center;
   width: 174px;
 }
