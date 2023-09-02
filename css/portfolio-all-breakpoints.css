@@ -34,7 +34,7 @@
   width: 657px;
 }
 
-.portfolio-all-breakpoints .rubiojp_logo_vector_-2 {
+.portfolio-all-breakpoints .rubiojp_logo_vector_ {
   height: 142px;
   left: 0;
   object-fit: cover;
@@ -43,7 +43,7 @@
   width: 174px;
 }
 
-.portfolio-all-breakpoints .title-2 {
+.portfolio-all-breakpoints .title {
   left: 40px;
   letter-spacing: 0;
   line-height: normal;
@@ -51,6 +51,14 @@
   text-align: center;
   top: 11px;
   width: 617px;
+}
+
+.portfolio-all-breakpoints .navbar {
+  align-items: flex-start;
+  display: inline-flex;
+  left: 174px;
+  position: absolute;
+  top: 109px;
 }
 
 .portfolio-all-breakpoints .navbar-link-place {
@@ -71,7 +79,7 @@
   width: 253px;
 }
 
-.portfolio-all-breakpoints .overlap-group-2 {
+.portfolio-all-breakpoints .overlap-group {
   height: 41px;
   left: 0;
   position: absolute;
@@ -152,7 +160,7 @@
   width: 174px;
 }
 
-.portfolio-all-breakpoints .flex-row-1 {
+.portfolio-all-breakpoints .flex-row {
   align-items: flex-start;
   align-self: center;
   display: flex;
@@ -176,7 +184,7 @@
   width: 313px;
 }
 
-.portfolio-all-breakpoints .virgen-1-1 {
+.portfolio-all-breakpoints .virgen-1 {
   height: 356px;
   left: 30px;
   object-fit: cover;
@@ -192,7 +200,7 @@
   width: 292px;
 }
 
-.portfolio-all-breakpoints .hpim1656-1-1 {
+.portfolio-all-breakpoints .hpim1656-1 {
   height: 356px;
   object-fit: cover;
   width: 292px;
@@ -261,7 +269,7 @@
   top: 18px;
 }
 
-.portfolio-all-breakpoints .place-2 {
+.portfolio-all-breakpoints .place {
   letter-spacing: 0;
   line-height: normal;
   min-height: 25px;
@@ -287,14 +295,14 @@
   width: 834px;
 }
 
-.portfolio-ipad .overlap-group-1 {
+.portfolio-ipad .overlap-group-2 {
   align-self: flex-start;
   height: 112px;
   position: relative;
   width: 651px;
 }
 
-.portfolio-ipad .rubiojp_logo_vector_-1 {
+.portfolio-ipad .rubiojp_logo_vector_-2 {
   height: 110px;
   left: 0;
   object-fit: cover;
@@ -303,7 +311,7 @@
   width: 134px;
 }
 
-.portfolio-ipad .title-1 {
+.portfolio-ipad .title-2 {
   left: 29px;
   letter-spacing: 0;
   line-height: normal;
@@ -324,16 +332,8 @@
   width: 572px;
 }
 
-.portfolio-ipad .place {
+.portfolio-ipad .place-1 {
   cursor: pointer;
-  height: 46px;
-  letter-spacing: 0;
-  line-height: normal;
-  margin-bottom: -9.00px;
-  margin-top: -1.00px;
-  position: relative;
-  text-align: center;
-  width: 174px;
 }
 
 .portfolio-ipad .portfolio {
@@ -348,7 +348,7 @@
   width: 221px;
 }
 
-.portfolio-ipad .flex-row {
+.portfolio-ipad .flex-row-1 {
   align-items: flex-start;
   display: flex;
   gap: 103px;
@@ -379,6 +379,17 @@
   min-height: 276px;
   width: 668px;
 }
+
+.portfolio-ipad .place {
+  height: 46px;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-bottom: -9.00px;
+  margin-top: -1.00px;
+  position: relative;
+  text-align: center;
+  width: 174px;
+}
 /* screen - portfolio-mobile */
 
 .portfolio-mobile {
@@ -395,16 +406,15 @@
   align-self: flex-start;
   gap: 94px;
   min-width: 366px;
-  z-index: 1;
 }
 
-.portfolio-mobile .overlap-group {
+.portfolio-mobile .overlap-group-1 {
   height: 161px;
   position: relative;
   width: 231px;
 }
 
-.portfolio-mobile .rubiojp_logo_vector_ {
+.portfolio-mobile .rubiojp_logo_vector_-1 {
   height: 132px;
   left: 0;
   object-fit: cover;
@@ -413,7 +423,7 @@
   width: 141px;
 }
 
-.portfolio-mobile .title {
+.portfolio-mobile .title-1 {
   color: var(--sandy-brown);
   font-family: var(--font-family-ofelia_text-regular);
   font-size: var(--font-size-l);
@@ -430,20 +440,17 @@
 
 .portfolio-mobile .we-invite-you-to-exp {
   height: 111px;
-  left: 47px;
-  position: fixed;
-  top: 261px;
+  margin-right: 8.85px;
+  margin-top: 84px;
   width: 287px;
-  z-index: 6;
 }
 
 .portfolio-mobile .rooster-color-1 {
   height: 356px;
   margin-right: 2.0px;
-  margin-top: 247px;
+  margin-top: 52px;
   object-fit: cover;
   width: 292px;
-  z-index: 2;
 }
 
 .portfolio-mobile .el_che_cigar_256-1 {
@@ -452,37 +459,34 @@
   margin-top: 69px;
   object-fit: cover;
   width: 292px;
-  z-index: 3;
 }
 
-.portfolio-mobile .virgen-1 {
+.portfolio-mobile .virgen-1-1 {
   height: 356px;
   margin-top: 52px;
   object-fit: cover;
   width: 292px;
-  z-index: 4;
 }
 
-.portfolio-mobile .hpim1656-1 {
+.portfolio-mobile .hpim1656-1-1 {
   height: 356px;
   margin-top: 70px;
   object-fit: cover;
   width: 292px;
-  z-index: 5;
 }
 @media screen and (max-width: 833px) {
-  .screen.portfolio-ipad { 
+  .screen.portfolio-all-breakpoints { 
     display: none;
    }
-  .screen.portfolio-all-breakpoints { 
+  .screen.portfolio-ipad { 
     display: none;
    }
 }
 @media screen and (min-width: 834px) and (max-width: 1511px) {
-  .screen.portfolio-mobile { 
+  .screen.portfolio-all-breakpoints { 
     display: none;
    }
-  .screen.portfolio-all-breakpoints { 
+  .screen.portfolio-mobile { 
     display: none;
    }
 }

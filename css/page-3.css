@@ -52,6 +52,14 @@
   width: 617px;
 }
 
+.page-3 .navbar {
+  align-items: flex-start;
+  display: inline-flex;
+  left: 174px;
+  position: absolute;
+  top: 109px;
+}
+
 .page-3 .overlap-group4 {
   height: 41px;
   margin-bottom: 15px;
