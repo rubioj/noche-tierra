@@ -95,17 +95,18 @@
   width: 41px;
 }
 
-.group-7 {
-  cursor: pointer;
-  flex-direction: column;
-  gap: 5px;
-  min-height: 25px;
-  width: 41px;
+.overlap-group8 {
+  height: 155px;
+  position: relative;
+  width: 917px;
 }
 
-.group-1 {
+.navbar {
   align-items: flex-start;
-  display: flex;
+  display: inline-flex;
+  left: 174px;
+  position: absolute;
+  top: 109px;
 }
 
 .navbar-link-place {
@@ -134,28 +135,6 @@
   margin-top: 12px;
 }
 
-.line {
-  height: 1px;
-  object-fit: cover;
-  width: 1512px;
-}
-
-.navbar-link {
-  height: 46px;
-  letter-spacing: 0;
-  line-height: normal;
-  margin-top: -1.00px;
-  position: relative;
-  text-align: center;
-  width: 174px;
-}
-
-.overlap-group8 {
-  height: 155px;
-  position: relative;
-  width: 917px;
-}
-
 .newsletter {
   left: 20px;
   letter-spacing: 0;
@@ -175,4 +154,40 @@
   text-align: center;
   top: 3px;
   width: 251px;
+}
+
+.line {
+  height: 1px;
+  object-fit: cover;
+  width: 1512px;
+}
+
+.rubiojp_logo_vector_-1 {
+  height: 132px;
+  left: 0;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  width: 141px;
+}
+
+.title-1 {
+  left: 0;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 124px;
+  white-space: nowrap;
+  width: 231px;
+}
+
+.navbar-link {
+  height: 46px;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-top: -1.00px;
+  position: relative;
+  text-align: center;
+  width: 174px;
 }
