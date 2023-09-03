@@ -19,12 +19,6 @@
   min-width: 1390px;
 }
 
-.page-3 .overlap-group8 {
-  height: 155px;
-  position: relative;
-  width: 917px;
-}
-
 .page-3 .overlap-group5 {
   height: 142px;
   left: 0;
@@ -86,6 +80,18 @@
   width: 251px;
 }
 
+.page-3 .rectangle-2 {
+  background-color: var(--akaroa);
+  border: 1px solid;
+  border-color: var(--black);
+  border-radius: 25px;
+  height: 30px;
+  left: 61px;
+  position: absolute;
+  top: 0;
+  width: 174px;
+}
+
 .page-3 .instagram {
   left: 0;
   letter-spacing: 0;
@@ -94,6 +100,14 @@
   text-align: center;
   top: 3px;
   width: 251px;
+}
+
+.page-3 .logoinstagram {
+  height: 18px;
+  left: 192px;
+  position: absolute;
+  top: 6px;
+  width: 18px;
 }
 
 .page-3 .title {
@@ -129,17 +143,6 @@
   left: 0;
   position: absolute;
   top: 7px;
-}
-
-.page-3 .newsletter {
-  left: 20px;
-  letter-spacing: 0;
-  line-height: normal;
-  position: absolute;
-  text-align: center;
-  top: 0;
-  white-space: nowrap;
-  width: 329px;
 }
 
 .page-3 .overlap-group1 {
@@ -200,4 +203,12 @@
   position: absolute;
   top: 0;
   width: 251px;
+}
+
+.page-3 .arrow-redo {
+  height: 22px;
+  left: 199px;
+  position: absolute;
+  top: 4px;
+  width: 22px;
 }

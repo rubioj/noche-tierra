@@ -72,12 +72,10 @@
   }
 }
 
-.align-self-flex-center {
-  align-self: flex-center;
-}
-
-input:focus {
-  outline: none;
+.valign-text-middle {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .hidden,
@@ -91,9 +89,17 @@ input:focus {
 }
 
 .group {
-  background-color: var(--donkey-brown);
+  background-color: var(--buttons);
   cursor: pointer;
   height: 5px;
+  width: 41px;
+}
+
+.group-7 {
+  cursor: pointer;
+  flex-direction: column;
+  gap: 5px;
+  min-height: 25px;
   width: 41px;
 }
 
@@ -124,84 +130,14 @@ input:focus {
   width: 174px;
 }
 
-.rectangle-2 {
-  background-color: var(--akaroa);
-  border: 1px solid;
-  border-color: var(--black);
-  border-radius: 25px;
-  height: 30px;
-  left: 61px;
-  position: absolute;
-  top: 0;
-  width: 174px;
-}
-
-.logoinstagram {
-  height: 18px;
-  left: 192px;
-  position: absolute;
-  top: 6px;
-  width: 18px;
-}
-
 .line-3 {
   margin-top: 12px;
-}
-
-.subscribe {
-  left: 0;
-  letter-spacing: 0;
-  line-height: normal;
-  position: absolute;
-  text-align: center;
-  top: 3px;
-  width: 251px;
-}
-
-.arrow-redo {
-  height: 22px;
-  left: 199px;
-  position: absolute;
-  top: 4px;
-  width: 22px;
 }
 
 .line {
   height: 1px;
   object-fit: cover;
   width: 1512px;
-}
-
-.rubiojp_logo_vector_-1 {
-  height: 110px;
-  left: 0;
-  object-fit: cover;
-  position: absolute;
-  top: 2px;
-  width: 134px;
-}
-
-.title-1 {
-  left: 29px;
-  letter-spacing: 0;
-  line-height: normal;
-  position: absolute;
-  text-align: center;
-  top: 0;
-  white-space: nowrap;
-  width: 476px;
-}
-
-.portfolio {
-  cursor: pointer;
-  height: 46px;
-  letter-spacing: 0;
-  line-height: normal;
-  margin-bottom: -9.00px;
-  margin-top: -1.00px;
-  position: relative;
-  text-align: center;
-  width: 221px;
 }
 
 .navbar-link {
@@ -212,4 +148,31 @@ input:focus {
   position: relative;
   text-align: center;
   width: 174px;
+}
+
+.overlap-group8 {
+  height: 155px;
+  position: relative;
+  width: 917px;
+}
+
+.newsletter {
+  left: 20px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 0;
+  white-space: nowrap;
+  width: 329px;
+}
+
+.subscribe {
+  left: 0;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 3px;
+  width: 251px;
 }

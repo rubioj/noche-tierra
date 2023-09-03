@@ -1,17 +1,18 @@
 /* screen - contact */
 
 .contact {
-  align-items: flex-start;
+  align-items: center;
   background-color: var(--white);
   display: flex;
   flex-direction: column;
-  height: 844px;
+  height: 1025px;
   padding: 16px 10px;
   width: 390px;
 }
 
-.contact .group-container {
+.contact .flex-row {
   align-items: flex-start;
+  align-self: flex-start;
   display: flex;
   gap: 94px;
   min-width: 366px;
@@ -43,7 +44,7 @@
   width: 231px;
 }
 
-.contact .group-7 {
+.contact .hamburger-menu {
   align-items: flex-start;
   cursor: pointer;
   display: flex;
@@ -54,91 +55,168 @@
 }
 
 .contact .submit-your-question {
-  align-self: center;
   letter-spacing: 0;
   line-height: normal;
-  margin-top: 53px;
+  margin-right: 2.0px;
+  margin-top: 36px;
   min-height: 41px;
   text-align: center;
   width: 296px;
 }
 
 .contact .name {
-  background-color: transparent;
-  border: 0;
-  height: 38px;
-  letter-spacing: 0;
-  line-height: normal;
-  margin-left: 10px;
-  margin-top: 32px;
-  padding: 0;
-  width: 298px;
+  align-items: flex-start;
+  display: inline-flex;
+  flex-direction: column;
+  gap: 11px;
+  margin-right: 2.0px;
+  margin-top: 27px;
+  position: relative;
 }
 
-.contact .name::placeholder {
-  color: #00000099;
+.contact .place {
+  height: 36px;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-top: -1.00px;
+  position: relative;
+  width: 95px;
+}
+
+.contact .name-field {
+  background-color: var(--form-background);
+  border: 1px solid;
+  border-color: var(--default-stroke);
+  border-radius: 5px;
+  height: 47px;
+  position: relative;
+  width: 294px;
 }
 
 .contact .email {
-  background-color: transparent;
-  border: 0;
-  height: 38px;
-  letter-spacing: 0;
-  line-height: normal;
-  margin-left: 10px;
-  margin-top: 35px;
-  padding: 0;
-  width: 298px;
-}
-
-.contact .email::placeholder {
-  color: #00000099;
-}
-
-.contact .enter-your-question {
-  align-self: center;
-  background-color: transparent;
-  border: 0;
-  height: 271px;
-  letter-spacing: 0;
-  line-height: normal;
-  margin-right: 6.0px;
-  margin-top: 50px;
-  padding: 0;
-  width: 344px;
-}
-
-.contact .enter-your-question::placeholder {
-  color: #00000099;
-}
-
-.contact .group-9 {
   align-items: flex-start;
-  align-self: center;
+  display: inline-flex;
+  flex-direction: column;
+  gap: 11px;
+  margin-right: 4.0px;
+  margin-top: 37px;
+  position: relative;
+}
+
+.contact .name-1 {
+  height: 36px;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-top: -1.00px;
+  position: relative;
+  width: 95px;
+}
+
+.contact .name-field-1 {
+  background-color: var(--form-background);
+  border: 1px solid;
+  border-color: var(--default-stroke);
+  border-radius: 2px;
+  height: 47px;
+  position: relative;
+  width: 294px;
+}
+
+.contact .check-boxes {
+  align-items: flex-start;
+  display: inline-flex;
+  gap: 13px;
+  justify-content: center;
+  margin-left: 1.0px;
+  margin-top: 51px;
+  position: relative;
+}
+
+.contact .group-10 {
+  cursor: pointer;
+  height: 33px;
+  position: relative;
+  width: 33px;
+}
+
+.contact .frame-8 {
+  align-items: flex-start;
+  display: inline-flex;
+  gap: 10px;
+  position: relative;
+}
+
+.contact .rectangle-4 {
+  background-color: var(--form-background);
+  border: 1px solid;
+  border-color: var(--default-stroke);
+  border-radius: 3px;
+  height: 33px;
+  position: relative;
+  width: 33px;
+}
+
+.contact .i-want-to-receive-updates-via-email {
+  color: var(--black);
+  font-family: var(--font-family-ofelia_text-regular);
+  font-size: var(--font-size-xs);
+  font-weight: 400;
+  height: 33px;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-top: -1.00px;
+  position: relative;
+  width: 247px;
+}
+
+.contact .button-subscribe {
+  align-items: flex-start;
   cursor: pointer;
   display: flex;
-  margin-right: 16.0px;
-  margin-top: 36px;
-  min-width: 246px;
+  height: 44px;
+  margin-right: 28.0px;
+  margin-top: 84px;
+  min-width: 268px;
 }
 
 .contact .overlap-group {
-  align-items: flex-start;
-  background-color: var(--donkey-brown);
-  display: flex;
-  height: 46px;
-  justify-content: flex-end;
-  min-width: 246px;
+  height: 43px;
+  position: relative;
+  width: 268px;
 }
 
-.contact .submit {
-  color: var(--white);
+.contact .rectangle-2 {
+  background-color: var(--akaroa);
+  border: 1px solid;
+  border-color: var(--black);
+  border-radius: 25px;
+  height: 30px;
+  left: 27px;
+  position: absolute;
+  top: 0;
+  width: 225px;
+}
+
+.contact .arrow-redo {
+  background-image: url(../img/arrow-redo.svg);
+  background-size: 100% 100%;
+  height: 22px;
+  left: 212px;
+  position: absolute;
+  top: 3px;
+  width: 23px;
+}
+
+.contact .join-our-community {
+  color: var(--kabul);
   font-family: var(--font-family-rounded_mplus_1c_bold-bold);
-  font-size: var(--font-size-m);
+  font-size: var(--font-size-xs);
   font-weight: 700;
+  left: 0;
   letter-spacing: 0;
   line-height: normal;
-  min-height: 35px;
+  position: absolute;
   text-align: center;
-  width: 243px;
+  top: 5px;
+  width: 268px;
 }

@@ -6,8 +6,7 @@
   display: flex;
   flex-direction: column;
   height: 982px;
-  overflow: hidden;
-  padding: 8px 0;
+  padding: 10px 0;
   width: 1512px;
 }
 
@@ -16,17 +15,16 @@
   display: flex;
   gap: 220px;
   margin-left: 10px;
-  margin-top: 2px;
   min-width: 1390px;
 }
 
-.portfolio-all-breakpoints .overlap-group10 {
+.portfolio-all-breakpoints .overlap-group5 {
   height: 155px;
   position: relative;
   width: 917px;
 }
 
-.portfolio-all-breakpoints .overlap-group8 {
+.portfolio-all-breakpoints .overlap-group4 {
   height: 142px;
   left: 0;
   position: absolute;
@@ -81,19 +79,31 @@
   color: #F4A261
 }
 
-.portfolio-all-breakpoints .overlap-group6 {
+.portfolio-all-breakpoints .overlap-group2 {
   height: 41px;
   margin-bottom: 15px;
   position: relative;
   width: 253px;
 }
 
-.portfolio-all-breakpoints .overlap-group {
+.portfolio-all-breakpoints .overlap-group1 {
   height: 41px;
   left: 0;
   position: absolute;
   top: 0;
   width: 251px;
+}
+
+.portfolio-all-breakpoints .rectangle-2 {
+  background-color: var(--akaroa);
+  border: 1px solid;
+  border-color: var(--black);
+  border-radius: 25px;
+  height: 30px;
+  left: 61px;
+  position: absolute;
+  top: 0;
+  width: 174px;
 }
 
 .portfolio-all-breakpoints .instagram {
@@ -104,6 +114,16 @@
   text-align: center;
   top: 3px;
   width: 251px;
+}
+
+.portfolio-all-breakpoints .logoinstagram {
+  background-image: url(../img/logo-instagram-5.svg);
+  background-size: 100% 100%;
+  height: 18px;
+  left: 193px;
+  position: absolute;
+  top: 5px;
+  width: 18px;
 }
 
 .portfolio-all-breakpoints .explore-art-in-all-i {
@@ -189,7 +209,7 @@
   min-width: 1294px;
 }
 
-.portfolio-all-breakpoints .overlap-group7 {
+.portfolio-all-breakpoints .overlap-group3 {
   height: 356px;
   position: relative;
   width: 322px;
@@ -225,89 +245,8 @@
   width: 292px;
 }
 
-.portfolio-all-breakpoints .overlap-group-container-1 {
-  height: 59px;
-  margin-left: -49px;
-  margin-top: 132px;
-  position: relative;
-  width: 1561px;
-}
-
-.portfolio-all-breakpoints .overlap-group5 {
-  height: 48px;
-  left: 0;
-  position: absolute;
-  top: 0;
-  width: 1561px;
-}
-
 .portfolio-all-breakpoints .line-2 {
-  left: 49px;
-  position: absolute;
-  top: 0;
-}
-
-.portfolio-all-breakpoints .newsletter {
-  left: 0;
-  letter-spacing: 0;
-  line-height: normal;
-  position: absolute;
-  text-align: center;
-  top: 0;
-  white-space: nowrap;
-  width: 329px;
-}
-
-.portfolio-all-breakpoints .overlap-group1 {
-  align-items: flex-start;
-  background-color: var(--white);
-  border: 1px solid;
-  border-color: var(--black);
-  border-radius: 25px;
-  display: flex;
-  height: 30px;
-  left: 299px;
-  min-width: 197px;
-  padding: 1px 11.3px;
-  position: absolute;
-  top: 18px;
-}
-
-.portfolio-all-breakpoints .email {
-  letter-spacing: 0;
-  line-height: normal;
-  min-height: 25px;
-  width: 167px;
-}
-
-.portfolio-all-breakpoints .overlap-group2 {
-  align-items: flex-start;
-  background-color: var(--white);
-  border: 1px solid;
-  border-color: var(--black);
-  border-radius: 25px;
-  display: flex;
-  height: 30px;
-  left: 536px;
-  min-width: 197px;
-  padding: 1px 11.3px;
-  position: absolute;
-  top: 18px;
-}
-
-.portfolio-all-breakpoints .place {
-  letter-spacing: 0;
-  line-height: normal;
-  min-height: 25px;
-  width: 167px;
-}
-
-.portfolio-all-breakpoints .overlap-group3 {
-  height: 41px;
-  left: 762px;
-  position: absolute;
-  top: 18px;
-  width: 251px;
+  margin-top: 132px;
 }
 /* screen - portfolio-ipad */
 
@@ -328,6 +267,26 @@
   width: 651px;
 }
 
+.portfolio-ipad .rubiojp_logo_vector_-2 {
+  height: 110px;
+  left: 0;
+  object-fit: cover;
+  position: absolute;
+  top: 2px;
+  width: 134px;
+}
+
+.portfolio-ipad .title-2 {
+  left: 29px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 0;
+  white-space: nowrap;
+  width: 476px;
+}
+
 .portfolio-ipad .frame-2 {
   align-items: flex-start;
   display: flex;
@@ -338,7 +297,7 @@
   width: 572px;
 }
 
-.portfolio-ipad .place-1 {
+.portfolio-ipad .place {
   cursor: pointer;
   height: 46px;
   letter-spacing: 0;
@@ -351,8 +310,20 @@
   width: 174px;
 }
 
-.portfolio-ipad .place-1:hover {
+.portfolio-ipad .place:hover {
   color: #F4A261
+}
+
+.portfolio-ipad .portfolio {
+  cursor: pointer;
+  height: 46px;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-bottom: -9.00px;
+  margin-top: -1.00px;
+  position: relative;
+  text-align: center;
+  width: 221px;
 }
 
 .portfolio-ipad .flex-row-1 {
@@ -365,20 +336,20 @@
   min-width: 687px;
 }
 
-.portfolio-ipad .rooster-color-1 {
+.portfolio-ipad .rooster-color-1-1 {
   height: 356px;
   object-fit: cover;
   width: 292px;
 }
 
-.portfolio-ipad .el_che_cigar_256-1 {
+.portfolio-ipad .el_che_cigar_256-1-1 {
   align-self: flex-end;
   height: 356px;
   object-fit: cover;
   width: 292px;
 }
 
-.portfolio-ipad .we-invite-you-to-exp {
+.portfolio-ipad .we-invite-you-to-exp-1 {
   letter-spacing: 0;
   line-height: normal;
   margin-left: 18.0px;
@@ -404,13 +375,13 @@
   min-width: 366px;
 }
 
-.portfolio-mobile .overlap-group-2 {
+.portfolio-mobile .overlap-group {
   height: 161px;
   position: relative;
   width: 231px;
 }
 
-.portfolio-mobile .rubiojp_logo_vector_-2 {
+.portfolio-mobile .rubiojp_logo_vector_-1 {
   height: 132px;
   left: 0;
   object-fit: cover;
@@ -419,7 +390,7 @@
   width: 141px;
 }
 
-.portfolio-mobile .title-2 {
+.portfolio-mobile .title-1 {
   left: 0;
   letter-spacing: 0;
   line-height: normal;
@@ -430,22 +401,14 @@
   width: 231px;
 }
 
-.portfolio-mobile .group-7 {
-  cursor: pointer;
-  flex-direction: column;
-  gap: 5px;
-  min-height: 25px;
-  width: 41px;
-}
-
-.portfolio-mobile .we-invite-you-to-exp-1 {
+.portfolio-mobile .we-invite-you-to-exp {
   height: 111px;
   margin-right: 8.85px;
   margin-top: 84px;
   width: 287px;
 }
 
-.portfolio-mobile .rooster-color-1-1 {
+.portfolio-mobile .rooster-color-1 {
   height: 356px;
   margin-right: 2.0px;
   margin-top: 52px;
@@ -453,7 +416,7 @@
   width: 292px;
 }
 
-.portfolio-mobile .el_che_cigar_256-1-1 {
+.portfolio-mobile .el_che_cigar_256-1 {
   height: 356px;
   margin-right: 2.0px;
   margin-top: 69px;
@@ -491,10 +454,10 @@
    }
 }
 @media screen and (min-width: 1512px) {
-  .screen.portfolio-ipad { 
+  .screen.portfolio-mobile { 
     display: none;
    }
-  .screen.portfolio-mobile { 
+  .screen.portfolio-ipad { 
     display: none;
    }
 }

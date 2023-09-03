@@ -30,8 +30,8 @@
   <body style="margin: 0; background: #ffffff">
     <input type="hidden" id="anPageName" name="page" value="contact" />
     <div class="container-center-horizontal">
-      <form class="contact screen" name="form1" action="form1" method="post">
-        <div class="group-container">
+      <form class="contact screen" name="form2" action="form2" method="post">
+        <div class="flex-row">
           <div class="overlap-group1">
             <img
               class="rubiojp_logo_vector_"
@@ -41,7 +41,7 @@
             <h1 class="title ofeliatext-regular-normal-sandy-brown-36px">Arte Tierra</h1>
           </div>
           <a onclick="ShowOverlay('overlay', 'animate-appear');">
-            <div class="group-7">
+            <div class="hamburger-menu">
               <a onclick="ShowOverlay('overlay', 'animate-appear');window.event.stopPropagation()">
                 <div class="group"></div></a
               ><a onclick="ShowOverlay('overlay', 'animate-appear');window.event.stopPropagation()">
@@ -52,20 +52,30 @@
           ></a>
         </div>
         <div class="submit-your-question ofeliatext-regular-normal-black-24px">submit your question</div>
-        <input class="name ofeliatext-regular-normal-black-24px" name="name" placeholder="name" type="text" /><input
-          class="email ofeliatext-regular-normal-black-24px"
-          name="email"
-          placeholder="email"
-          type="email"
-        /><textarea
-          class="enter-your-question ofeliatext-regular-normal-black-24px"
-          name="enteryourquestion"
-          placeholder="enter your question"
-          type="text"
-        ></textarea
-        ><a href="javascript:SubmitForm('form1')" class="align-self-flex-center">
-          <div class="group-9">
-            <div class="overlap-group"><div class="submit">submit</div></div>
+        <div class="name">
+          <div class="place ofeliatext-regular-normal-black-24px">name</div>
+          <div class="name-field"></div>
+        </div>
+        <div class="email">
+          <div class="name-1 ofeliatext-regular-normal-black-24px">email</div>
+          <div class="name-field-1"></div>
+        </div>
+        <div class="check-boxes">
+          <a href="javascript:SubmitForm('form2')">
+            <div class="group-10">
+              <div class="frame-8">
+                <div class="rectangle-4"></div>
+              </div></div
+          ></a>
+          <p class="i-want-to-receive-updates-via-email valign-text-middle">I want to receive updates via email</p>
+        </div>
+        <a href="javascript:SubmitForm('form2')">
+          <div class="button-subscribe">
+            <div class="overlap-group">
+              <div class="rectangle-2"></div>
+              <div class="arrow-redo"></div>
+              <div class="join-our-community">Join Our Community</div>
+            </div>
           </div></a
         >
       </form>

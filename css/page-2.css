@@ -86,6 +86,18 @@
   width: 251px;
 }
 
+.page-2 .rectangle-2 {
+  background-color: var(--akaroa);
+  border: 1px solid;
+  border-color: var(--black);
+  border-radius: 25px;
+  height: 30px;
+  left: 61px;
+  position: absolute;
+  top: 0;
+  width: 174px;
+}
+
 .page-2 .instagram {
   left: 0;
   letter-spacing: 0;
@@ -94,6 +106,14 @@
   text-align: center;
   top: 3px;
   width: 251px;
+}
+
+.page-2 .logoinstagram {
+  height: 18px;
+  left: 192px;
+  position: absolute;
+  top: 6px;
+  width: 18px;
 }
 
 .page-2 .overlap-group5 {
@@ -133,17 +153,6 @@
   left: 0;
   position: absolute;
   top: 7px;
-}
-
-.page-2 .newsletter {
-  left: 20px;
-  letter-spacing: 0;
-  line-height: normal;
-  position: absolute;
-  text-align: center;
-  top: 0;
-  white-space: nowrap;
-  width: 329px;
 }
 
 .page-2 .overlap-group1 {
@@ -204,4 +213,12 @@
   position: absolute;
   top: 0;
   width: 251px;
+}
+
+.page-2 .arrow-redo {
+  height: 22px;
+  left: 199px;
+  position: absolute;
+  top: 4px;
+  width: 22px;
 }
