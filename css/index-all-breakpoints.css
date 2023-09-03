@@ -32,7 +32,7 @@
   width: 657px;
 }
 
-.index-all-breakpoints .rubiojp_logo_vector_ {
+.index-all-breakpoints .rubiojp_logo_vector_-3 {
   height: 142px;
   left: 0;
   object-fit: cover;
@@ -41,7 +41,7 @@
   width: 174px;
 }
 
-.index-all-breakpoints .title {
+.index-all-breakpoints .title-3 {
   left: 40px;
   letter-spacing: 0;
   line-height: normal;
@@ -51,23 +51,19 @@
   width: 617px;
 }
 
-.index-all-breakpoints .navbar-link-place {
-  cursor: pointer;
-  height: 46px;
-  letter-spacing: 0;
-  line-height: normal;
-  margin-top: -1.00px;
-  position: relative;
-  text-align: center;
-  transition: all 0.2s ease;
-  width: 174px;
+.index-all-breakpoints .navbar-1 {
+  align-items: flex-start;
+  display: inline-flex;
+  left: 174px;
+  position: absolute;
+  top: 109px;
 }
 
 .index-all-breakpoints .navbar-link-place:hover {
   color: #F4A261
 }
 
-.index-all-breakpoints .navbar-link-portfolio {
+.index-all-breakpoints .navbar-link-portfolio-1 {
   cursor: pointer;
   height: 46px;
   letter-spacing: 0;
@@ -79,7 +75,7 @@
   width: 221px;
 }
 
-.index-all-breakpoints .navbar-link-portfolio:hover {
+.index-all-breakpoints .navbar-link-portfolio-1:hover {
   color: #F4A261
 }
 
@@ -90,7 +86,7 @@
   width: 251px;
 }
 
-.index-all-breakpoints .overlap-group {
+.index-all-breakpoints .overlap-group-3 {
   height: 41px;
   left: 0;
   position: absolute;
@@ -151,7 +147,7 @@
   width: 329px;
 }
 
-.index-all-breakpoints .overlap-group-1 {
+.index-all-breakpoints .overlap-group-4 {
   align-items: flex-start;
   background-color: var(--white);
   border: 1px solid;
@@ -164,6 +160,13 @@
   padding: 1px 11.3px;
   position: absolute;
   top: 23px;
+}
+
+.index-all-breakpoints .email {
+  letter-spacing: 0;
+  line-height: normal;
+  min-height: 25px;
+  width: 167px;
 }
 
 .index-all-breakpoints .overlap-group-container-2 {
@@ -190,7 +193,7 @@
   padding: 1px 11.3px;
 }
 
-.index-all-breakpoints .place {
+.index-all-breakpoints .place-1 {
   letter-spacing: 0;
   line-height: normal;
   min-height: 25px;
@@ -214,31 +217,11 @@
   width: 834px;
 }
 
-.ipad-pro-11u34-1 .overlap-group-4 {
+.ipad-pro-11u34-1 .overlap-group-1 {
   align-self: flex-start;
   height: 112px;
   position: relative;
   width: 650px;
-}
-
-.ipad-pro-11u34-1 .rubiojp_logo_vector_-3 {
-  height: 110px;
-  left: 0;
-  object-fit: cover;
-  position: absolute;
-  top: 2px;
-  width: 134px;
-}
-
-.ipad-pro-11u34-1 .title-3 {
-  left: 29px;
-  letter-spacing: 0;
-  line-height: normal;
-  position: absolute;
-  text-align: center;
-  top: 0;
-  white-space: nowrap;
-  width: 476px;
 }
 
 .ipad-pro-11u34-1 .frame-2 {
@@ -251,8 +234,7 @@
   width: 572px;
 }
 
-.ipad-pro-11u34-1 .portfolio {
-  cursor: pointer;
+.ipad-pro-11u34-1 .place {
   height: 46px;
   letter-spacing: 0;
   line-height: normal;
@@ -260,10 +242,10 @@
   margin-top: -1.00px;
   position: relative;
   text-align: center;
-  width: 221px;
+  width: 174px;
 }
 
-.ipad-pro-11u34-1 .snoqualmie-2-2 {
+.ipad-pro-11u34-1 .snoqualmie-2-1 {
   height: 427px;
   margin-left: 1.0px;
   margin-top: 64px;
@@ -298,7 +280,7 @@
   width: 915px;
 }
 
-.ipad-pro-11u34-2 .rubiojp_logo_vector_-1 {
+.ipad-pro-11u34-2 .rubiojp_logo_vector_-2 {
   height: 142px;
   left: 0;
   object-fit: cover;
@@ -307,7 +289,7 @@
   width: 174px;
 }
 
-.ipad-pro-11u34-2 .title-1 {
+.ipad-pro-11u34-2 .title-2 {
   left: 38px;
   letter-spacing: 0;
   line-height: normal;
@@ -317,7 +299,7 @@
   width: 617px;
 }
 
-.ipad-pro-11u34-2 .navbar-1 {
+.ipad-pro-11u34-2 .navbar {
   align-items: flex-start;
   display: inline-flex;
   left: 172px;
@@ -325,7 +307,7 @@
   top: 98px;
 }
 
-.ipad-pro-11u34-2 .navbar-link-portfolio-1 {
+.ipad-pro-11u34-2 .navbar-link-portfolio {
   cursor: pointer;
   height: 46px;
   letter-spacing: 0;
@@ -336,7 +318,7 @@
   width: 221px;
 }
 
-.ipad-pro-11u34-2 .snoqualmie-2 {
+.ipad-pro-11u34-2 .snoqualmie-2-2 {
   align-self: center;
   height: 586px;
   margin-left: 65.0px;
@@ -362,13 +344,13 @@
   min-width: 366px;
 }
 
-.mobile-home .overlap-group-3 {
+.mobile-home .overlap-group {
   height: 161px;
   position: relative;
   width: 231px;
 }
 
-.mobile-home .rubiojp_logo_vector_-2 {
+.mobile-home .rubiojp_logo_vector_ {
   height: 132px;
   left: 0;
   object-fit: cover;
@@ -377,11 +359,7 @@
   width: 141px;
 }
 
-.mobile-home .title-2 {
-  color: var(--sandy-brown);
-  font-family: var(--font-family-ofelia_text-regular);
-  font-size: var(--font-size-l);
-  font-weight: 400;
+.mobile-home .title {
   left: 0;
   letter-spacing: 0;
   line-height: normal;
@@ -392,52 +370,60 @@
   width: 231px;
 }
 
-.mobile-home .snoqualmie-2-1 {
+.mobile-home .group-7 {
+  cursor: pointer;
+  flex-direction: column;
+  gap: 5px;
+  min-height: 25px;
+  width: 41px;
+}
+
+.mobile-home .snoqualmie-2 {
   height: 586px;
   object-fit: cover;
   width: 376px;
 }
 @media screen and (max-width: 833px) {
-  .screen.index-all-breakpoints { 
+  .screen.ipad-pro-11u34-1 { 
     display: none;
    }
   .screen.ipad-pro-11u34-2 { 
     display: none;
    }
-  .screen.ipad-pro-11u34-1 { 
+  .screen.index-all-breakpoints { 
     display: none;
    }
 }
 @media screen and (min-width: 834px) and (max-width: 1193px) {
-  .screen.index-all-breakpoints { 
+  .screen.mobile-home { 
     display: none;
    }
   .screen.ipad-pro-11u34-2 { 
     display: none;
    }
-  .screen.mobile-home { 
+  .screen.index-all-breakpoints { 
     display: none;
    }
 }
 @media screen and (min-width: 1194px) and (max-width: 1511px) {
-  .screen.index-all-breakpoints { 
-    display: none;
-   }
   .screen.mobile-home { 
     display: none;
    }
   .screen.ipad-pro-11u34-1 { 
+    display: none;
+   }
+  .screen.index-all-breakpoints { 
     display: none;
    }
 }
 @media screen and (min-width: 1512px) {
-  .screen.ipad-pro-11u34-2 { 
-    display: none;
-   }
   .screen.mobile-home { 
     display: none;
    }
   .screen.ipad-pro-11u34-1 { 
+    display: none;
+   }
+  .screen.ipad-pro-11u34-2 { 
     display: none;
    }
 }

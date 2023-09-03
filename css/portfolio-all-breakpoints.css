@@ -34,7 +34,7 @@
   width: 657px;
 }
 
-.portfolio-all-breakpoints .rubiojp_logo_vector_-2 {
+.portfolio-all-breakpoints .rubiojp_logo_vector_ {
   height: 142px;
   left: 0;
   object-fit: cover;
@@ -43,7 +43,7 @@
   width: 174px;
 }
 
-.portfolio-all-breakpoints .title-2 {
+.portfolio-all-breakpoints .title {
   left: 40px;
   letter-spacing: 0;
   line-height: normal;
@@ -53,15 +53,16 @@
   width: 617px;
 }
 
-.portfolio-all-breakpoints .navbar-link-place {
-  cursor: pointer;
-  height: 46px;
-  letter-spacing: 0;
-  line-height: normal;
-  margin-top: -1.00px;
-  position: relative;
-  text-align: center;
-  width: 174px;
+.portfolio-all-breakpoints .navbar {
+  align-items: flex-start;
+  display: inline-flex;
+  left: 174px;
+  position: absolute;
+  top: 109px;
+}
+
+.portfolio-all-breakpoints .navbar-link-place:hover {
+  color: #F4A261
 }
 
 .portfolio-all-breakpoints .navbar-link-portfolio {
@@ -80,22 +81,6 @@
   color: #F4A261
 }
 
-.portfolio-all-breakpoints .navbar-link-place-1 {
-  cursor: pointer;
-  height: 46px;
-  letter-spacing: 0;
-  line-height: normal;
-  margin-top: -1.00px;
-  position: relative;
-  text-align: center;
-  transition: all 0.2s ease;
-  width: 174px;
-}
-
-.portfolio-all-breakpoints .navbar-link-place-1:hover {
-  color: #F4A261
-}
-
 .portfolio-all-breakpoints .overlap-group6 {
   height: 41px;
   margin-bottom: 15px;
@@ -103,7 +88,7 @@
   width: 253px;
 }
 
-.portfolio-all-breakpoints .overlap-group-2 {
+.portfolio-all-breakpoints .overlap-group {
   height: 41px;
   left: 0;
   position: absolute;
@@ -194,7 +179,7 @@
   width: 174px;
 }
 
-.portfolio-all-breakpoints .flex-row-1 {
+.portfolio-all-breakpoints .flex-row {
   align-items: flex-start;
   align-self: center;
   display: flex;
@@ -218,7 +203,7 @@
   width: 313px;
 }
 
-.portfolio-all-breakpoints .virgen-1-1 {
+.portfolio-all-breakpoints .virgen-1 {
   height: 356px;
   left: 30px;
   object-fit: cover;
@@ -234,7 +219,7 @@
   width: 292px;
 }
 
-.portfolio-all-breakpoints .hpim1656-1-1 {
+.portfolio-all-breakpoints .hpim1656-1 {
   height: 356px;
   object-fit: cover;
   width: 292px;
@@ -288,6 +273,13 @@
   top: 18px;
 }
 
+.portfolio-all-breakpoints .email {
+  letter-spacing: 0;
+  line-height: normal;
+  min-height: 25px;
+  width: 167px;
+}
+
 .portfolio-all-breakpoints .overlap-group2 {
   align-items: flex-start;
   background-color: var(--white);
@@ -303,7 +295,7 @@
   top: 18px;
 }
 
-.portfolio-all-breakpoints .place-2 {
+.portfolio-all-breakpoints .place {
   letter-spacing: 0;
   line-height: normal;
   min-height: 25px;
@@ -336,26 +328,6 @@
   width: 651px;
 }
 
-.portfolio-ipad .rubiojp_logo_vector_-1 {
-  height: 110px;
-  left: 0;
-  object-fit: cover;
-  position: absolute;
-  top: 2px;
-  width: 134px;
-}
-
-.portfolio-ipad .title-1 {
-  left: 29px;
-  letter-spacing: 0;
-  line-height: normal;
-  position: absolute;
-  text-align: center;
-  top: 0;
-  white-space: nowrap;
-  width: 476px;
-}
-
 .portfolio-ipad .frame-2 {
   align-items: flex-start;
   display: flex;
@@ -366,7 +338,7 @@
   width: 572px;
 }
 
-.portfolio-ipad .place {
+.portfolio-ipad .place-1 {
   cursor: pointer;
   height: 46px;
   letter-spacing: 0;
@@ -375,22 +347,15 @@
   margin-top: -1.00px;
   position: relative;
   text-align: center;
+  transition: all 0.2s ease;
   width: 174px;
 }
 
-.portfolio-ipad .portfolio {
-  cursor: pointer;
-  height: 46px;
-  letter-spacing: 0;
-  line-height: normal;
-  margin-bottom: -9.00px;
-  margin-top: -1.00px;
-  position: relative;
-  text-align: center;
-  width: 221px;
+.portfolio-ipad .place-1:hover {
+  color: #F4A261
 }
 
-.portfolio-ipad .flex-row {
+.portfolio-ipad .flex-row-1 {
   align-items: flex-start;
   display: flex;
   gap: 103px;
@@ -400,20 +365,20 @@
   min-width: 687px;
 }
 
-.portfolio-ipad .rooster-color-1-1 {
+.portfolio-ipad .rooster-color-1 {
   height: 356px;
   object-fit: cover;
   width: 292px;
 }
 
-.portfolio-ipad .el_che_cigar_256-1-1 {
+.portfolio-ipad .el_che_cigar_256-1 {
   align-self: flex-end;
   height: 356px;
   object-fit: cover;
   width: 292px;
 }
 
-.portfolio-ipad .we-invite-you-to-exp-1 {
+.portfolio-ipad .we-invite-you-to-exp {
   letter-spacing: 0;
   line-height: normal;
   margin-left: 18.0px;
@@ -439,13 +404,13 @@
   min-width: 366px;
 }
 
-.portfolio-mobile .overlap-group {
+.portfolio-mobile .overlap-group-2 {
   height: 161px;
   position: relative;
   width: 231px;
 }
 
-.portfolio-mobile .rubiojp_logo_vector_ {
+.portfolio-mobile .rubiojp_logo_vector_-2 {
   height: 132px;
   left: 0;
   object-fit: cover;
@@ -454,11 +419,7 @@
   width: 141px;
 }
 
-.portfolio-mobile .title {
-  color: var(--sandy-brown);
-  font-family: var(--font-family-ofelia_text-regular);
-  font-size: var(--font-size-l);
-  font-weight: 400;
+.portfolio-mobile .title-2 {
   left: 0;
   letter-spacing: 0;
   line-height: normal;
@@ -469,14 +430,22 @@
   width: 231px;
 }
 
-.portfolio-mobile .we-invite-you-to-exp {
+.portfolio-mobile .group-7 {
+  cursor: pointer;
+  flex-direction: column;
+  gap: 5px;
+  min-height: 25px;
+  width: 41px;
+}
+
+.portfolio-mobile .we-invite-you-to-exp-1 {
   height: 111px;
   margin-right: 8.85px;
   margin-top: 84px;
   width: 287px;
 }
 
-.portfolio-mobile .rooster-color-1 {
+.portfolio-mobile .rooster-color-1-1 {
   height: 356px;
   margin-right: 2.0px;
   margin-top: 52px;
@@ -484,7 +453,7 @@
   width: 292px;
 }
 
-.portfolio-mobile .el_che_cigar_256-1 {
+.portfolio-mobile .el_che_cigar_256-1-1 {
   height: 356px;
   margin-right: 2.0px;
   margin-top: 69px;
@@ -492,40 +461,40 @@
   width: 292px;
 }
 
-.portfolio-mobile .virgen-1 {
+.portfolio-mobile .virgen-1-1 {
   height: 356px;
   margin-top: 52px;
   object-fit: cover;
   width: 292px;
 }
 
-.portfolio-mobile .hpim1656-1 {
+.portfolio-mobile .hpim1656-1-1 {
   height: 356px;
   margin-top: 70px;
   object-fit: cover;
   width: 292px;
 }
 @media screen and (max-width: 833px) {
-  .screen.portfolio-ipad { 
+  .screen.portfolio-all-breakpoints { 
     display: none;
    }
-  .screen.portfolio-all-breakpoints { 
+  .screen.portfolio-ipad { 
     display: none;
    }
 }
 @media screen and (min-width: 834px) and (max-width: 1511px) {
-  .screen.portfolio-mobile { 
+  .screen.portfolio-all-breakpoints { 
     display: none;
    }
-  .screen.portfolio-all-breakpoints { 
+  .screen.portfolio-mobile { 
     display: none;
    }
 }
 @media screen and (min-width: 1512px) {
-  .screen.portfolio-mobile { 
+  .screen.portfolio-ipad { 
     display: none;
    }
-  .screen.portfolio-ipad { 
+  .screen.portfolio-mobile { 
     display: none;
    }
 }

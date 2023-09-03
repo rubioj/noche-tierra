@@ -1,0 +1,144 @@
+/* screen - contact */
+
+.contact {
+  align-items: flex-start;
+  background-color: var(--white);
+  display: flex;
+  flex-direction: column;
+  height: 844px;
+  padding: 16px 10px;
+  width: 390px;
+}
+
+.contact .group-container {
+  align-items: flex-start;
+  display: flex;
+  gap: 94px;
+  min-width: 366px;
+}
+
+.contact .overlap-group1 {
+  height: 161px;
+  position: relative;
+  width: 231px;
+}
+
+.contact .rubiojp_logo_vector_ {
+  height: 132px;
+  left: 0;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  width: 141px;
+}
+
+.contact .title {
+  left: 0;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 124px;
+  white-space: nowrap;
+  width: 231px;
+}
+
+.contact .group-7 {
+  align-items: flex-start;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  min-height: 25px;
+  width: 41px;
+}
+
+.contact .submit-your-question {
+  align-self: center;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-top: 53px;
+  min-height: 41px;
+  text-align: center;
+  width: 296px;
+}
+
+.contact .name {
+  background-color: transparent;
+  border: 0;
+  height: 38px;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-left: 10px;
+  margin-top: 32px;
+  padding: 0;
+  width: 298px;
+}
+
+.contact .name::placeholder {
+  color: #00000099;
+}
+
+.contact .email {
+  background-color: transparent;
+  border: 0;
+  height: 38px;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-left: 10px;
+  margin-top: 35px;
+  padding: 0;
+  width: 298px;
+}
+
+.contact .email::placeholder {
+  color: #00000099;
+}
+
+.contact .enter-your-question {
+  align-self: center;
+  background-color: transparent;
+  border: 0;
+  height: 271px;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-right: 6.0px;
+  margin-top: 50px;
+  padding: 0;
+  width: 344px;
+}
+
+.contact .enter-your-question::placeholder {
+  color: #00000099;
+}
+
+.contact .group-9 {
+  align-items: flex-start;
+  align-self: center;
+  cursor: pointer;
+  display: flex;
+  margin-right: 16.0px;
+  margin-top: 36px;
+  min-width: 246px;
+}
+
+.contact .overlap-group {
+  align-items: flex-start;
+  background-color: var(--donkey-brown);
+  display: flex;
+  height: 46px;
+  justify-content: flex-end;
+  min-width: 246px;
+}
+
+.contact .submit {
+  color: var(--white);
+  font-family: var(--font-family-rounded_mplus_1c_bold-bold);
+  font-size: var(--font-size-m);
+  font-weight: 700;
+  letter-spacing: 0;
+  line-height: normal;
+  min-height: 35px;
+  text-align: center;
+  width: 243px;
+}

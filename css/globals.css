@@ -3,16 +3,16 @@
 @import url("https://px.animaapp.com/64e7f49afc358f17625d3e54.64e7f49afc358f17625d3e57.lRtbAF6.hcp.png");
 
 @font-face {
-  font-family: "Funkydori-Regular";
-  font-style: normal;
-  font-weight: 400;
-  src: url("../fonts/.28114.otf") format("opentype");
-}
-@font-face {
   font-family: "Rounded Mplus 1c Bold-Bold";
   font-style: normal;
   font-weight: 700;
   src: url("../fonts/MPLUSRounded1c-Bold.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Funkydori-Regular";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/.28114.otf") format("opentype");
 }
 
 
@@ -72,6 +72,14 @@
   }
 }
 
+.align-self-flex-center {
+  align-self: flex-center;
+}
+
+input:focus {
+  outline: none;
+}
+
 .hidden,
 .hidden * {
   pointer-events: none;
@@ -82,12 +90,28 @@
   box-sizing: border-box;
 }
 
-.navbar {
+.group {
+  background-color: var(--donkey-brown);
+  cursor: pointer;
+  height: 5px;
+  width: 41px;
+}
+
+.group-1 {
   align-items: flex-start;
-  display: inline-flex;
-  left: 174px;
-  position: absolute;
-  top: 109px;
+  display: flex;
+}
+
+.navbar-link-place {
+  cursor: pointer;
+  height: 46px;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-top: -1.00px;
+  position: relative;
+  text-align: center;
+  transition: all 0.2s ease;
+  width: 174px;
 }
 
 .navbar-link-store {
@@ -124,13 +148,6 @@
   margin-top: 12px;
 }
 
-.email {
-  letter-spacing: 0;
-  line-height: normal;
-  min-height: 25px;
-  width: 167px;
-}
-
 .subscribe {
   left: 0;
   letter-spacing: 0;
@@ -155,27 +172,28 @@
   width: 1512px;
 }
 
-.group-7 {
+.rubiojp_logo_vector_-1 {
+  height: 110px;
+  left: 0;
+  object-fit: cover;
+  position: absolute;
+  top: 2px;
+  width: 134px;
+}
+
+.title-1 {
+  left: 29px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 0;
+  white-space: nowrap;
+  width: 476px;
+}
+
+.portfolio {
   cursor: pointer;
-  flex-direction: column;
-  gap: 5px;
-  min-height: 25px;
-  width: 41px;
-}
-
-.group {
-  background-color: var(--donkey-brown);
-  cursor: pointer;
-  height: 5px;
-  width: 41px;
-}
-
-.group-1 {
-  align-items: flex-start;
-  display: flex;
-}
-
-.place-1 {
   height: 46px;
   letter-spacing: 0;
   line-height: normal;
@@ -183,7 +201,7 @@
   margin-top: -1.00px;
   position: relative;
   text-align: center;
-  width: 174px;
+  width: 221px;
 }
 
 .navbar-link {

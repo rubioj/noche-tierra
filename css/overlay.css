@@ -43,10 +43,15 @@
 
 .overlay .place {
   cursor: pointer;
+  height: 46px;
+  letter-spacing: 0;
+  line-height: normal;
   margin-top: -1.00px;
+  position: relative;
+  width: 166px;
 }
 
-.overlay .portfolio {
+.overlay .link {
   cursor: pointer;
   height: 46px;
   letter-spacing: 0;
@@ -84,12 +89,4 @@
   min-height: 84px;
   text-align: center;
   width: 286px;
-}
-
-.overlay .place-2 {
-  height: 46px;
-  letter-spacing: 0;
-  line-height: normal;
-  position: relative;
-  width: 166px;
 }

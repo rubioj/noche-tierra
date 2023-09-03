@@ -52,6 +52,14 @@
   width: 617px;
 }
 
+.page-3 .navbar {
+  align-items: flex-start;
+  display: inline-flex;
+  left: 174px;
+  position: absolute;
+  top: 109px;
+}
+
 .page-3 .navbar-link-portfolio {
   cursor: pointer;
   height: 46px;
@@ -147,6 +155,13 @@
   padding: 1px 11.3px;
   position: absolute;
   top: 23px;
+}
+
+.page-3 .email {
+  letter-spacing: 0;
+  line-height: normal;
+  min-height: 25px;
+  width: 167px;
 }
 
 .page-3 .overlap-group-container-2 {
