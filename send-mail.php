@@ -1,8 +1,5 @@
 <?php
-// For debugging: print all POST data
-echo "<pre>";
-print_r($_POST);
-echo "</pre>";
+
 
 // Rest of your PHP script...
 
@@ -16,10 +13,10 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     $to = $userEmail;
 
     // Subject
-    $subject = 'Welcome' . $userName;
+    $subject = 'Welcome ' . $userName;
 
     // Message
-    $message = 'We are very excited you have joined our art community';
+    $message = $userName . ' We are happy to have you as part of our art community - Arte Tierra';
 
     // Additional headers
     $headers = 'From: info@juanrubio.us' . "\r\n" .
