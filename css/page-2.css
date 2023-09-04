@@ -116,6 +116,10 @@
   width: 18px;
 }
 
+.page-2 .line-3 {
+  margin-top: 12px;
+}
+
 .page-2 .overlap-group5 {
   align-items: flex-start;
   align-self: center;
@@ -168,14 +172,6 @@
   padding: 1px 11.3px;
   position: absolute;
   top: 23px;
-}
-
-.page-2 .overlap-group-container-2 {
-  height: 41px;
-  left: 569px;
-  position: absolute;
-  top: 20px;
-  width: 447px;
 }
 
 .page-2 .overlap-group2 {

@@ -110,11 +110,15 @@
   width: 18px;
 }
 
+.page-3 .line-3 {
+  margin-top: 12px;
+}
+
 .page-3 .title {
   align-self: center;
   color: var(--black);
   font-family: var(--font-family-ofelia_text-regular);
-  font-size: var(--font-size-xxxl);
+  font-size: var(--font-size-xxxxl);
   font-weight: 400;
   letter-spacing: 0;
   line-height: normal;
@@ -158,14 +162,6 @@
   padding: 1px 11.3px;
   position: absolute;
   top: 23px;
-}
-
-.page-3 .overlap-group-container-2 {
-  height: 41px;
-  left: 569px;
-  position: absolute;
-  top: 20px;
-  width: 447px;
 }
 
 .page-3 .overlap-group2 {

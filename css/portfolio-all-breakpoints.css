@@ -126,6 +126,10 @@
   width: 18px;
 }
 
+.portfolio-all-breakpoints .line-3 {
+  margin-top: 12px;
+}
+
 .portfolio-all-breakpoints .explore-art-in-all-i {
   align-self: center;
   letter-spacing: 0;

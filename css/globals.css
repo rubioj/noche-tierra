@@ -14,12 +14,6 @@
   font-weight: 300;
   src: url("../fonts/Darkmode.otf") format("opentype");
 }
-@font-face {
-  font-family: "Funkydori-Regular";
-  font-style: normal;
-  font-weight: 400;
-  src: url("../fonts/.28114.otf") format("opentype");
-}
 
 
 .screen a {
@@ -117,10 +111,6 @@
   width: 174px;
 }
 
-.line-3 {
-  margin-top: 12px;
-}
-
 .line {
   height: 1px;
   object-fit: cover;
@@ -144,6 +134,10 @@
 }
 
 .newsletter {
+  color: var(--default-stroke);
+  font-family: var(--font-family-funkydori-regular);
+  font-size: var(--font-size-xxl);
+  font-weight: 400;
   left: 20px;
   letter-spacing: 0;
   line-height: normal;
@@ -159,6 +153,14 @@
   line-height: normal;
   min-height: 25px;
   width: 167px;
+}
+
+.overlap-group-container-2 {
+  height: 41px;
+  left: 569px;
+  position: absolute;
+  top: 20px;
+  width: 447px;
 }
 
 .subscribe {
