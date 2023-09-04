@@ -2,14 +2,17 @@
 // Check if the request method is post
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
+    $userName = $_POST['userName'];
+  $userEmail = $_POST['userEmail'];
+
     // Recipient email
-    $to = 'rubiojuan@gmail.com';
+    $to = $userEmail;
 
     // Subject
-    $subject = 'Test Email';
+    $subject = 'Welcome';
 
     // Message
-    $message = 'This is a test email sent from a PHP script.';
+    $message = 'We are very excited to have you be part of our art community';
 
     // Additional headers
     $headers = 'From: info@juanrubio.us' . "\r\n" .
