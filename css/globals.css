@@ -72,12 +72,6 @@
   }
 }
 
-.valign-text-middle {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-}
-
 .hidden,
 .hidden * {
   pointer-events: none;
@@ -103,6 +97,41 @@
   cursor: pointer;
   height: 5px;
   width: 41px;
+}
+
+.rubiojp_logo_vector_-1 {
+  height: 110px;
+  left: 0;
+  object-fit: cover;
+  position: absolute;
+  top: 2px;
+  width: 134px;
+}
+
+.navbar-link {
+  height: 46px;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-top: -1.00px;
+  position: relative;
+  text-align: center;
+  width: 174px;
+}
+
+.overlap-group8 {
+  height: 155px;
+  position: relative;
+  width: 917px;
+}
+
+.title-2 {
+  left: 40px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 11px;
+  width: 617px;
 }
 
 .navbar-link-place {
@@ -131,28 +160,6 @@
   margin-top: 12px;
 }
 
-.line {
-  height: 1px;
-  object-fit: cover;
-  width: 1512px;
-}
-
-.navbar-link {
-  height: 46px;
-  letter-spacing: 0;
-  line-height: normal;
-  margin-top: -1.00px;
-  position: relative;
-  text-align: center;
-  width: 174px;
-}
-
-.overlap-group8 {
-  height: 155px;
-  position: relative;
-  width: 917px;
-}
-
 .newsletter {
   left: 20px;
   letter-spacing: 0;
@@ -164,6 +171,13 @@
   width: 329px;
 }
 
+.email {
+  letter-spacing: 0;
+  line-height: normal;
+  min-height: 25px;
+  width: 167px;
+}
+
 .subscribe {
   left: 0;
   letter-spacing: 0;
@@ -172,4 +186,10 @@
   text-align: center;
   top: 3px;
   width: 251px;
+}
+
+.line {
+  height: 1px;
+  object-fit: cover;
+  width: 1512px;
 }
