@@ -1,6 +1,4 @@
 <?php
-
-<?php
 // For debugging: print all POST data
 echo "<pre>";
 print_r($_POST);
