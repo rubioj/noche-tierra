@@ -21,7 +21,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
     // Check for success
     if ($success) {
-        echo 'Email sent successfully!';
+        header("Location: http://juanrubio.us/contact.html");
     } else {
         echo 'Failed to send email. Check your server configuration.';
     }
