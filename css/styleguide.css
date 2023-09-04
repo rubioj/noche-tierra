@@ -4,16 +4,18 @@
   --buttons: #a68f79;
   --default-stroke: #574b3f;
   --form-background: #d3c1a557;
+  --green-background: #70977580;
   --heading-1: #f4a261;
   --kabul: #574a3e;
   --white: #ffffff;
  
-  --font-size-l: 36px;
+  --font-size-l: 32px;
   --font-size-m: 24px;
   --font-size-s: 16px;
-  --font-size-xl: 48px;
+  --font-size-xl: 36px;
   --font-size-xs: 13px;
-  --font-size-xxl: 96px;
+  --font-size-xxl: 48px;
+  --font-size-xxxl: 96px;
  
   --font-family-fjord-one: "Fjord-One", Helvetica;
   --font-family-funkydori-regular: "Funkydori-Regular", Helvetica;
@@ -39,7 +41,7 @@
 .ofeliatext-regular-normal-sandy-brown-48px {
   color: var(--heading-1);
   font-family: var(--font-family-ofelia_text-regular);
-  font-size: var(--font-size-xl);
+  font-size: var(--font-size-xxl);
   font-style: normal;
   font-weight: 400;
 }
@@ -55,7 +57,7 @@
 .ofeliatext-regular-normal-sandy-brown-36px {
   color: var(--heading-1);
   font-family: var(--font-family-ofelia_text-regular);
-  font-size: var(--font-size-l);
+  font-size: var(--font-size-xl);
   font-style: normal;
   font-weight: 400;
 }
@@ -63,7 +65,7 @@
 .funkydori-regular-normal-kabul-36px {
   color: var(--default-stroke);
   font-family: var(--font-family-funkydori-regular);
-  font-size: var(--font-size-l);
+  font-size: var(--font-size-xl);
   font-style: normal;
   font-weight: 400;
 }
