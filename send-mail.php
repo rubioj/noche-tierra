@@ -12,8 +12,8 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     $message = 'This is a test email sent from a PHP script.';
 
     // Additional headers
-    $headers = 'From: rubiojuan@gmail.com' . "\r\n" .
-        'Reply-To: rubiojuan@gmail.com' . "\r\n" .
+    $headers = 'From: info@juanrubio.us' . "\r\n" .
+        'Reply-To: info@juanrubio.us' . "\r\n" .
         'X-Mailer: PHP/' . phpversion();
 
     // Send the email
