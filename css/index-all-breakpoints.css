@@ -26,7 +26,7 @@
   width: 657px;
 }
 
-.index-all-breakpoints .rubiojp_logo_vector_-2 {
+.index-all-breakpoints .rubiojp_logo_vector_-3 {
   height: 142px;
   left: 0;
   object-fit: cover;
@@ -35,7 +35,7 @@
   width: 174px;
 }
 
-.index-all-breakpoints .title-2 {
+.index-all-breakpoints .title-3 {
   left: 40px;
   letter-spacing: 0;
   line-height: normal;
@@ -45,11 +45,19 @@
   width: 617px;
 }
 
+.index-all-breakpoints .navbar-1 {
+  align-items: flex-start;
+  display: inline-flex;
+  left: 174px;
+  position: absolute;
+  top: 109px;
+}
+
 .index-all-breakpoints .navbar-link-place:hover {
   color: #F4A261
 }
 
-.index-all-breakpoints .navbar-link-portfolio {
+.index-all-breakpoints .navbar-link-portfolio-1 {
   cursor: pointer;
   height: 46px;
   letter-spacing: 0;
@@ -61,7 +69,7 @@
   width: 221px;
 }
 
-.index-all-breakpoints .navbar-link-portfolio:hover {
+.index-all-breakpoints .navbar-link-portfolio-1:hover {
   color: #F4A261
 }
 
@@ -72,7 +80,7 @@
   width: 251px;
 }
 
-.index-all-breakpoints .overlap-group-3 {
+.index-all-breakpoints .overlap-group-4 {
   height: 41px;
   left: 0;
   position: absolute;
@@ -144,7 +152,7 @@
   top: 7px;
 }
 
-.index-all-breakpoints .overlap-group-4 {
+.index-all-breakpoints .overlap-group-5 {
   align-items: flex-start;
   background-color: var(--white);
   border: 1px solid;
@@ -224,26 +232,6 @@
   width: 650px;
 }
 
-.ipad-pro-11u34-1 .rubiojp_logo_vector_-1 {
-  height: 110px;
-  left: 0;
-  object-fit: cover;
-  position: absolute;
-  top: 2px;
-  width: 134px;
-}
-
-.ipad-pro-11u34-1 .title-1 {
-  left: 29px;
-  letter-spacing: 0;
-  line-height: normal;
-  position: absolute;
-  text-align: center;
-  top: 0;
-  white-space: nowrap;
-  width: 476px;
-}
-
 .ipad-pro-11u34-1 .frame-2 {
   align-items: center;
   display: flex;
@@ -307,13 +295,13 @@
   width: 1194px;
 }
 
-.ipad-pro-11u34-2 .overlap-group-5 {
+.ipad-pro-11u34-2 .overlap-group-3 {
   height: 146px;
   position: relative;
   width: 915px;
 }
 
-.ipad-pro-11u34-2 .rubiojp_logo_vector_-3 {
+.ipad-pro-11u34-2 .rubiojp_logo_vector_-2 {
   height: 142px;
   left: 0;
   object-fit: cover;
@@ -322,7 +310,7 @@
   width: 174px;
 }
 
-.ipad-pro-11u34-2 .title-3 {
+.ipad-pro-11u34-2 .title-2 {
   left: 38px;
   letter-spacing: 0;
   line-height: normal;
@@ -332,7 +320,7 @@
   width: 617px;
 }
 
-.ipad-pro-11u34-2 .navbar-1 {
+.ipad-pro-11u34-2 .navbar {
   align-items: flex-start;
   display: inline-flex;
   left: 172px;
@@ -340,7 +328,7 @@
   top: 98px;
 }
 
-.ipad-pro-11u34-2 .navbar-link-portfolio-1 {
+.ipad-pro-11u34-2 .navbar-link-portfolio {
   cursor: pointer;
   height: 46px;
   letter-spacing: 0;
@@ -433,9 +421,9 @@
 
 .mobile-home .we-are-a-place-for-artists {
   color: var(--default-stroke);
-  font-family: var(--font-family-ofelia_text-regular);
+  font-family: var(--font-family-darkmode_on_cc-light);
   font-size: var(--font-size-l);
-  font-weight: 400;
+  font-weight: 300;
   letter-spacing: 0;
   line-height: normal;
   min-height: 97px;
@@ -459,9 +447,9 @@
 
 .mobile-home .arte-tierra-is-juan {
   color: #5e5324;
-  font-family: var(--font-family-ofelia_text-regular);
+  font-family: var(--font-family-darkmode_on_cc-light);
   font-size: var(--font-size-xl);
-  font-weight: 400;
+  font-weight: 300;
   left: 30px;
   letter-spacing: 0;
   line-height: normal;
@@ -471,7 +459,7 @@
   width: 327px;
 }
 
-.mobile-home .rectangle-8 {
+.mobile-home .we-are {
   background-color: var(--form-background);
   height: 293px;
   left: 0;
@@ -498,9 +486,9 @@
 
 .mobile-home .we-use-art-to-connec {
   color: var(--default-stroke);
-  font-family: var(--font-family-ofelia_text-regular);
+  font-family: var(--font-family-darkmode_on_cc-light);
   font-size: var(--font-size-m);
-  font-weight: 400;
+  font-weight: 300;
   letter-spacing: 0;
   line-height: normal;
   min-height: 67px;
@@ -527,9 +515,9 @@
 
 .mobile-home .we-seek-to-find-the {
   color: var(--default-stroke);
-  font-family: var(--font-family-ofelia_text-regular);
+  font-family: var(--font-family-darkmode_on_cc-light);
   font-size: var(--font-size-xl);
-  font-weight: 400;
+  font-weight: 300;
   letter-spacing: 0;
   line-height: normal;
   min-height: 205px;
@@ -540,10 +528,10 @@
   .screen.ipad-pro-11u34-1 { 
     display: none;
    }
-  .screen.index-all-breakpoints { 
+  .screen.ipad-pro-11u34-2 { 
     display: none;
    }
-  .screen.ipad-pro-11u34-2 { 
+  .screen.index-all-breakpoints { 
     display: none;
    }
 }
@@ -551,10 +539,10 @@
   .screen.mobile-home { 
     display: none;
    }
-  .screen.index-all-breakpoints { 
+  .screen.ipad-pro-11u34-2 { 
     display: none;
    }
-  .screen.ipad-pro-11u34-2 { 
+  .screen.index-all-breakpoints { 
     display: none;
    }
 }

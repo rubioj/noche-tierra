@@ -9,6 +9,12 @@
   src: url("../fonts/MPLUSRounded1c-Bold.ttf") format("truetype");
 }
 @font-face {
+  font-family: "Darkmode On CC-Light";
+  font-style: normal;
+  font-weight: 300;
+  src: url("../fonts/Darkmode.otf") format("opentype");
+}
+@font-face {
   font-family: "Funkydori-Regular";
   font-style: normal;
   font-weight: 400;
@@ -89,12 +95,24 @@
   width: 41px;
 }
 
-.navbar {
-  align-items: flex-start;
-  display: inline-flex;
-  left: 174px;
+.rubiojp_logo_vector_-1 {
+  height: 110px;
+  left: 0;
+  object-fit: cover;
   position: absolute;
-  top: 109px;
+  top: 2px;
+  width: 134px;
+}
+
+.title-1 {
+  left: 29px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 0;
+  white-space: nowrap;
+  width: 476px;
 }
 
 .navbar-link-place {
@@ -129,6 +147,16 @@
   width: 1512px;
 }
 
+.navbar-link {
+  height: 46px;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-top: -1.00px;
+  position: relative;
+  text-align: center;
+  width: 174px;
+}
+
 .overlap-group8 {
   height: 155px;
   position: relative;
@@ -161,14 +189,4 @@
   text-align: center;
   top: 3px;
   width: 251px;
-}
-
-.navbar-link {
-  height: 46px;
-  letter-spacing: 0;
-  line-height: normal;
-  margin-top: -1.00px;
-  position: relative;
-  text-align: center;
-  width: 174px;
 }

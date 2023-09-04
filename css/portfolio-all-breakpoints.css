@@ -51,6 +51,14 @@
   width: 617px;
 }
 
+.portfolio-all-breakpoints .navbar {
+  align-items: flex-start;
+  display: inline-flex;
+  left: 174px;
+  position: absolute;
+  top: 109px;
+}
+
 .portfolio-all-breakpoints .navbar-link-place:hover {
   color: #F4A261
 }
@@ -252,31 +260,11 @@
   width: 834px;
 }
 
-.portfolio-ipad .overlap-group-1 {
+.portfolio-ipad .overlap-group {
   align-self: flex-start;
   height: 112px;
   position: relative;
   width: 651px;
-}
-
-.portfolio-ipad .rubiojp_logo_vector_-2 {
-  height: 110px;
-  left: 0;
-  object-fit: cover;
-  position: absolute;
-  top: 2px;
-  width: 134px;
-}
-
-.portfolio-ipad .title-2 {
-  left: 29px;
-  letter-spacing: 0;
-  line-height: normal;
-  position: absolute;
-  text-align: center;
-  top: 0;
-  white-space: nowrap;
-  width: 476px;
 }
 
 .portfolio-ipad .frame-2 {
@@ -318,7 +306,7 @@
   width: 221px;
 }
 
-.portfolio-ipad .flex-row-2 {
+.portfolio-ipad .flex-row-1 {
   align-items: flex-start;
   display: flex;
   gap: 103px;
@@ -328,20 +316,20 @@
   min-width: 687px;
 }
 
-.portfolio-ipad .rooster-color-1-1 {
+.portfolio-ipad .rooster-color-1 {
   height: 356px;
   object-fit: cover;
   width: 292px;
 }
 
-.portfolio-ipad .el_che_cigar_256-1-1 {
+.portfolio-ipad .el_che_cigar_256-1 {
   align-self: flex-end;
   height: 356px;
   object-fit: cover;
   width: 292px;
 }
 
-.portfolio-ipad .we-invite-you-to-exp-1 {
+.portfolio-ipad .we-invite-you-to-exp {
   letter-spacing: 0;
   line-height: normal;
   margin-left: 18.0px;
@@ -361,7 +349,7 @@
   width: 390px;
 }
 
-.portfolio-mobile .flex-row-1 {
+.portfolio-mobile .flex-row-2 {
   align-items: flex-start;
   align-self: flex-start;
   display: flex;
@@ -369,13 +357,13 @@
   min-width: 366px;
 }
 
-.portfolio-mobile .overlap-group {
+.portfolio-mobile .overlap-group-1 {
   height: 161px;
   position: relative;
   width: 231px;
 }
 
-.portfolio-mobile .rubiojp_logo_vector_-1 {
+.portfolio-mobile .rubiojp_logo_vector_-2 {
   height: 132px;
   left: 0;
   object-fit: cover;
@@ -384,7 +372,7 @@
   width: 141px;
 }
 
-.portfolio-mobile .title-1 {
+.portfolio-mobile .title-2 {
   left: 0;
   letter-spacing: 0;
   line-height: normal;
@@ -405,14 +393,14 @@
   width: 41px;
 }
 
-.portfolio-mobile .we-invite-you-to-exp {
+.portfolio-mobile .we-invite-you-to-exp-1 {
   height: 111px;
   margin-right: 8.85px;
   margin-top: 84px;
   width: 287px;
 }
 
-.portfolio-mobile .rooster-color-1 {
+.portfolio-mobile .rooster-color-1-1 {
   height: 356px;
   margin-right: 2.0px;
   margin-top: 52px;
@@ -420,7 +408,7 @@
   width: 292px;
 }
 
-.portfolio-mobile .el_che_cigar_256-1 {
+.portfolio-mobile .el_che_cigar_256-1-1 {
   height: 356px;
   margin-right: 2.0px;
   margin-top: 69px;
@@ -458,10 +446,10 @@
    }
 }
 @media screen and (min-width: 1512px) {
-  .screen.portfolio-mobile { 
+  .screen.portfolio-ipad { 
     display: none;
    }
-  .screen.portfolio-ipad { 
+  .screen.portfolio-mobile { 
     display: none;
    }
 }
