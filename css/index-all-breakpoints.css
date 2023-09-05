@@ -5,8 +5,8 @@
   background-color: var(--white);
   display: flex;
   flex-direction: column;
-  height: 1192px;
-  overflow: hidden;
+  height: 1679px;
+  padding: 10px 0;
   width: 1512px;
 }
 
@@ -15,11 +15,16 @@
   display: flex;
   gap: 220px;
   margin-left: 10px;
-  margin-top: 10px;
   min-width: 1388px;
 }
 
-.index-all-breakpoints .overlap-group6 {
+.index-all-breakpoints .overlap-group4 {
+  height: 155px;
+  position: relative;
+  width: 917px;
+}
+
+.index-all-breakpoints .overlap-group3 {
   height: 142px;
   left: 0;
   position: absolute;
@@ -114,7 +119,7 @@
 }
 
 .index-all-breakpoints .logoinstagram {
-  background-image: url(../img/logo-instagram-3.svg);
+  background-image: url(../img/logo-instagram-2.svg);
   background-size: 100% 100%;
   height: 18px;
   left: 192px;
@@ -129,30 +134,17 @@
   width: 1512px;
 }
 
-.index-all-breakpoints .overlap-group7 {
-  height: 79px;
-  position: relative;
-  width: 1512px;
-}
-
-.index-all-breakpoints .place-for-artists-1 {
-  align-items: center;
-  background-color: var(--form-background);
-  display: flex;
-  gap: 10px;
-  justify-content: center;
-  left: 0;
-  padding: 18px 35px;
-  position: absolute;
-  top: 0;
-  width: 441px;
+.index-all-breakpoints .frame-9 {
+  align-items: flex-start;
+  gap: 26px;
+  margin-top: 26px;
 }
 
 .index-all-breakpoints .we-are-a-place-for-artists-1 {
-  color: var(--default-stroke);
-  font-family: var(--font-family-darkmode_on_cc-light);
-  font-size: var(--font-size-xl);
-  font-weight: 300;
+  color: var(--heading-1);
+  font-family: var(--font-family-rounded_mplus_1c_bold-bold);
+  font-size: var(--font-size-xxl);
+  font-weight: 700;
   letter-spacing: 0;
   line-height: normal;
   margin-top: -1.00px;
@@ -161,36 +153,21 @@
   width: fit-content;
 }
 
-.index-all-breakpoints .frame-9 {
-  align-items: center;
-  background-color: #f4a26180;
-  display: flex;
-  gap: 10px;
-  height: 79px;
-  justify-content: center;
-  left: 436px;
-  padding: 34px 44px;
-  position: absolute;
-  top: 0;
-  width: 1076px;
-}
-
-.index-all-breakpoints .we-use-art-to-connec-1 {
-  color: var(--default-stroke);
+.index-all-breakpoints .we-are-a-collective {
+  color: var(--black);
   font-family: var(--font-family-darkmode_on_cc-light);
   font-size: var(--font-size-l);
   font-weight: 300;
+  height: 116px;
   letter-spacing: 0;
   line-height: normal;
-  margin-bottom: -11.00px;
-  margin-top: -13.00px;
   position: relative;
-  text-align: center;
-  width: fit-content;
+  width: 766px;
 }
 
-.index-all-breakpoints .overlap-group4 {
-  height: 794px;
+.index-all-breakpoints .overlap-group2-1 {
+  height: 859px;
+  margin-top: 30px;
   position: relative;
   width: 1512px;
 }
@@ -199,12 +176,12 @@
   height: 5px;
   left: 0;
   position: absolute;
-  top: 789px;
+  top: 617px;
   width: 1503px;
 }
 
 .index-all-breakpoints .snoqualmie-1 {
-  height: 794px;
+  height: 859px;
   left: 0;
   object-fit: cover;
   position: absolute;
@@ -212,27 +189,20 @@
   width: 1512px;
 }
 
-.index-all-breakpoints .overlap-group-container-1 {
-  align-items: flex-start;
-  display: flex;
-  margin-left: -9px;
-  min-width: 1523px;
-}
-
-.index-all-breakpoints .overlap-group3 {
-  height: 141px;
-  position: relative;
-  width: 791px;
+.index-all-breakpoints .frame-10 {
+  align-items: center;
+  gap: 30px;
+  margin-top: 59px;
 }
 
 .index-all-breakpoints .arte-tierra-is-juan-1 {
-  left: 61px;
+  height: 72px;
   letter-spacing: 0;
   line-height: normal;
-  position: absolute;
+  margin-top: -1.00px;
+  position: relative;
   text-align: center;
-  top: 17px;
-  width: 662px;
+  width: 903px;
 }
 
 .index-all-breakpoints .span1-1 {
@@ -243,35 +213,37 @@
   font-weight: 300;
 }
 
-.index-all-breakpoints .we-are-1 {
-  background-color: var(--form-background);
-  height: 141px;
-  left: 0;
-  position: absolute;
-  top: 0;
-  width: 791px;
-}
-
-.index-all-breakpoints .overlap-group2-1 {
-  align-items: flex-start;
-  background-color: var(--green-background);
-  display: flex;
-  height: 141px;
-  justify-content: flex-end;
-  min-width: 730px;
-  padding: 31.7px 37.2px;
-}
-
-.index-all-breakpoints .we-seek-to-find-the-1 {
+.index-all-breakpoints .we-highlight-dissem {
   color: var(--default-stroke);
   font-family: var(--font-family-darkmode_on_cc-light);
-  font-size: var(--font-size-xxl);
+  font-size: var(--font-size-l);
   font-weight: 300;
   letter-spacing: 0;
   line-height: normal;
-  min-height: 78px;
+  position: relative;
   text-align: center;
-  width: 640px;
+  width: 757px;
+}
+
+.index-all-breakpoints .c-juan-rubio-2023 {
+  color: var(--default-stroke);
+  font-family: var(--font-family-darkmode_on_cc-light);
+  font-size: var(--font-size-l);
+  font-weight: 300;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-left: 166px;
+  margin-top: 89px;
+  min-height: 35px;
+  min-width: 245px;
+  text-align: center;
+}
+
+.index-all-breakpoints .frame {
+  display: inline-flex;
+  flex-direction: column;
+  margin-left: 97px;
+  position: relative;
 }
 /* screen - ipad-pro-11u34-1 */
 
