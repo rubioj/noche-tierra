@@ -32,7 +32,7 @@
   width: 657px;
 }
 
-.index-all-breakpoints .rubiojp_logo_vector_-3 {
+.index-all-breakpoints .rubiojp_logo_vector_-2 {
   height: 142px;
   left: 0;
   object-fit: cover;
@@ -41,7 +41,7 @@
   width: 174px;
 }
 
-.index-all-breakpoints .title-3 {
+.index-all-breakpoints .title-2 {
   left: 40px;
   letter-spacing: 0;
   line-height: normal;
@@ -51,42 +51,22 @@
   width: 617px;
 }
 
-.index-all-breakpoints .navbar-1 {
-  align-items: flex-start;
-  display: inline-flex;
-  left: 174px;
-  position: absolute;
-  top: 109px;
-}
-
 .index-all-breakpoints .navbar-link-place:hover {
   color: #F4A261
 }
 
-.index-all-breakpoints .navbar-link-portfolio-1 {
-  cursor: pointer;
-  height: 46px;
-  letter-spacing: 0;
-  line-height: normal;
-  margin-top: -1.00px;
-  position: relative;
-  text-align: center;
-  transition: all 0.2s ease;
-  width: 221px;
-}
-
-.index-all-breakpoints .navbar-link-portfolio-1:hover {
+.index-all-breakpoints .navbar-link-portfolio:hover {
   color: #F4A261
 }
 
-.index-all-breakpoints .overlap-group1-1 {
+.index-all-breakpoints .overlap-group1 {
   height: 41px;
   margin-bottom: 15px;
   position: relative;
   width: 251px;
 }
 
-.index-all-breakpoints .overlap-group-4 {
+.index-all-breakpoints .overlap-group-2 {
   height: 41px;
   left: 0;
   position: absolute;
@@ -107,7 +87,11 @@
 }
 
 .index-all-breakpoints .instagram {
+  color: var(--kabul);
   cursor: pointer;
+  font-family: var(--font-family-rounded_mplus_1c_bold-bold);
+  font-size: var(--font-size-s);
+  font-weight: 700;
   left: 0;
   letter-spacing: 0;
   line-height: normal;
@@ -119,7 +103,7 @@
 }
 
 .index-all-breakpoints .logoinstagram {
-  background-image: url(../img/logo-instagram-2.svg);
+  background-image: url(../img/logo-instagram.svg);
   background-size: 100% 100%;
   height: 18px;
   left: 192px;
@@ -140,7 +124,7 @@
   margin-top: 26px;
 }
 
-.index-all-breakpoints .we-are-a-place-for-artists-1 {
+.index-all-breakpoints .we-are-a-place-for-artists {
   color: var(--heading-1);
   font-family: var(--font-family-rounded_mplus_1c_bold-bold);
   font-size: var(--font-size-xxl);
@@ -165,7 +149,7 @@
   width: 766px;
 }
 
-.index-all-breakpoints .overlap-group2-1 {
+.index-all-breakpoints .overlap-group2 {
   height: 859px;
   margin-top: 30px;
   position: relative;
@@ -180,7 +164,7 @@
   width: 1503px;
 }
 
-.index-all-breakpoints .snoqualmie-1 {
+.index-all-breakpoints .snoqualmie-1-1 {
   height: 859px;
   left: 0;
   object-fit: cover;
@@ -195,7 +179,7 @@
   margin-top: 59px;
 }
 
-.index-all-breakpoints .arte-tierra-is-juan-1 {
+.index-all-breakpoints .arte-tierra-is-juan {
   height: 72px;
   letter-spacing: 0;
   line-height: normal;
@@ -203,14 +187,6 @@
   position: relative;
   text-align: center;
   width: 903px;
-}
-
-.index-all-breakpoints .span1-1 {
-  color: var(--west-coast);
-  font-family: var(--font-family-darkmode_on_cc-lightitalic);
-  font-size: var(--font-size-xxl);
-  font-style: italic;
-  font-weight: 300;
 }
 
 .index-all-breakpoints .we-highlight-dissem {
@@ -257,7 +233,7 @@
   width: 834px;
 }
 
-.ipad-pro-11u34-1 .overlap-group-2 {
+.ipad-pro-11u34-1 .overlap-group-1 {
   align-self: flex-start;
   height: 134px;
   position: relative;
@@ -353,7 +329,7 @@
   width: 915px;
 }
 
-.ipad-pro-11u34-2 .rubiojp_logo_vector_-2 {
+.ipad-pro-11u34-2 .rubiojp_logo_vector_-3 {
   height: 142px;
   left: 0;
   object-fit: cover;
@@ -362,7 +338,7 @@
   width: 174px;
 }
 
-.ipad-pro-11u34-2 .title-2 {
+.ipad-pro-11u34-2 .title-3 {
   left: 38px;
   letter-spacing: 0;
   line-height: normal;
@@ -372,7 +348,7 @@
   width: 617px;
 }
 
-.ipad-pro-11u34-2 .navbar {
+.ipad-pro-11u34-2 .navbar-1 {
   align-items: flex-start;
   display: inline-flex;
   left: 172px;
@@ -380,7 +356,17 @@
   top: 98px;
 }
 
-.ipad-pro-11u34-2 .navbar-link-portfolio {
+.ipad-pro-11u34-2 .navbar-link {
+  height: 46px;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-top: -1.00px;
+  position: relative;
+  text-align: center;
+  width: 174px;
+}
+
+.ipad-pro-11u34-2 .navbar-link-portfolio-1 {
   cursor: pointer;
   height: 46px;
   letter-spacing: 0;
@@ -398,210 +384,308 @@
   object-fit: cover;
   width: 913px;
 }
-/* screen - mobile-home */
+/* screen - mobile-homepage */
 
-.mobile-home {
+.mobile-homepage {
   align-items: center;
   background-color: var(--white);
   display: flex;
   flex-direction: column;
-  height: 1632px;
-  overflow: hidden;
+  gap: 9px;
+  height: 2594px;
+  padding: 19px 0;
   width: 390px;
 }
 
-.mobile-home .flex-row {
-  align-items: flex-start;
+.mobile-homepage .flex-row {
+  align-items: center;
   display: flex;
-  margin-left: 2.0px;
-  margin-top: 16px;
-  min-width: 372px;
+  gap: 6px;
+  height: 111px;
+  min-width: 378px;
 }
 
-.mobile-home .rubiojp_logo_vector_ {
-  height: 132px;
+.mobile-homepage .rubiojp_logo_vector_ {
+  height: 90px;
+  margin-top: 3.0px;
   object-fit: cover;
-  width: 141px;
+  width: 90px;
 }
 
-.mobile-home .flex-col {
+.mobile-homepage .flex-col {
   align-items: flex-end;
   display: flex;
   flex-direction: column;
-  gap: 33px;
-  min-height: 95px;
-  width: 231px;
+  gap: 19px;
+  min-height: 111px;
+  width: 282px;
 }
 
-.mobile-home .hamburger-menu {
+.mobile-homepage .hamburger-menu {
   align-items: flex-start;
   cursor: pointer;
   display: flex;
   flex-direction: column;
   gap: 5px;
-  margin-right: 6px;
+  margin-right: 25px;
   min-height: 25px;
   width: 41px;
 }
 
-.mobile-home .title {
+.mobile-homepage .title {
   letter-spacing: 0;
   line-height: normal;
-  min-height: 37px;
+  min-height: 67px;
   text-align: center;
-  white-space: nowrap;
-  width: 231px;
+  width: 282px;
 }
 
-.mobile-home .place-for-artists {
-  align-items: flex-start;
-  display: flex;
-  margin-left: 3.0px;
-  margin-top: 34px;
-  min-width: 393px;
-}
-
-.mobile-home .overlap-group {
+.mobile-homepage .flex-col-1 {
   align-items: center;
-  background-color: var(--form-background);
   display: flex;
-  height: 131px;
-  justify-content: flex-end;
-  min-width: 391px;
-  padding: 0 18.9px;
+  flex-direction: column;
+  min-height: 1847px;
+  width: 390px;
 }
 
-.mobile-home .we-are-a-place-for-artists {
-  color: var(--default-stroke);
+.mobile-homepage .rectangle-8 {
+  background-color: var(--icons);
+  height: 4px;
+  width: 390px;
+}
+
+.mobile-homepage .find-the-art-to-brighten-your-life {
+  color: var(--black);
   font-family: var(--font-family-darkmode_on_cc-light);
   font-size: var(--font-size-xl);
   font-weight: 300;
   letter-spacing: 0;
   line-height: normal;
-  min-height: 97px;
+  margin-left: 5.0px;
+  margin-top: 58px;
+  min-height: 120px;
   text-align: center;
-  width: 343px;
+  width: 375px;
 }
 
-.mobile-home .snoqualmie-2 {
-  height: 586px;
-  object-fit: cover;
-  width: 390px;
-}
-
-.mobile-home .mobile-home-item {
-  align-items: flex-start;
-  display: flex;
-  margin-left: 3.0px;
-  min-width: 393px;
-}
-
-.mobile-home .overlap-group2 {
-  height: 225px;
-  position: relative;
-  width: 391px;
-}
-
-.mobile-home .arte-tierra-is-juan {
-  left: 30px;
+.mobile-homepage .visit-our-store {
+  align-self: flex-end;
+  color: var(--black);
+  font-family: var(--font-family-darkmode_on_cc-light);
+  font-size: var(--font-size-xl);
+  font-weight: 300;
   letter-spacing: 0;
   line-height: normal;
-  position: absolute;
-  text-align: center;
-  top: 27px;
-  width: 327px;
+  margin-right: 6px;
+  margin-top: 20px;
+  min-height: 50px;
+  width: 309px;
 }
 
-.mobile-home .span1 {
-  color: var(--west-coast);
-  font-family: var(--font-family-darkmode_on_cc-lightitalic);
-  font-size: var(--font-size-xxl);
-  font-style: italic;
+.mobile-homepage .snoqualmie-2 {
+  height: 268px;
+  margin-right: 4.0px;
+  margin-top: 60px;
+  object-fit: cover;
+  width: 378px;
+}
+
+.mobile-homepage .flex-row-1 {
+  gap: 2px;
+  height: 174px;
+  margin-left: 5.0px;
+  margin-top: 123px;
+  min-width: 375px;
+}
+
+.mobile-homepage .mdinature-people {
+  height: 90px;
+  margin-top: 32.0px;
+  width: 90px;
+}
+
+.mobile-homepage .we-are-an-online-col {
+  color: var(--black);
+  font-family: var(--font-family-darkmode_on_cc-light);
+  font-size: var(--font-size-m);
   font-weight: 300;
+  letter-spacing: 0;
+  line-height: normal;
+  min-height: 174px;
+  text-align: center;
+  width: 283px;
 }
 
-.mobile-home .we-are {
-  background-color: var(--form-background);
-  height: 225px;
+.mobile-homepage .overlap-group {
+  height: 330px;
+  margin-left: 1.0px;
+  margin-top: 86px;
+  position: relative;
+  width: 379px;
+}
+
+.mobile-homepage .rectangle-10 {
+  background-color: var(--alto);
+  height: 271px;
   left: 0;
   position: absolute;
+  top: 49px;
+  width: 378px;
+}
+
+.mobile-homepage .snoqualmie-1 {
+  height: 330px;
+  left: 3px;
+  object-fit: cover;
+  position: absolute;
   top: 0;
-  width: 391px;
+  width: 376px;
 }
 
-.mobile-home .natutal-homepage {
-  align-items: flex-start;
-  display: flex;
-  margin-left: 1.0px;
-  min-width: 391px;
-}
-
-.mobile-home .overlap-group-1 {
-  align-items: center;
-  background-color: #f4a26180;
-  display: flex;
-  height: 135px;
-  min-width: 391px;
-  padding: 0 22.0px;
-}
-
-.mobile-home .we-use-art-to-connec {
+.mobile-homepage .we-find-the-power-of {
   color: var(--default-stroke);
   font-family: var(--font-family-darkmode_on_cc-light);
   font-size: var(--font-size-m);
   font-weight: 300;
   letter-spacing: 0;
   line-height: normal;
-  min-height: 67px;
+  margin-top: 66px;
+  min-height: 127px;
   text-align: center;
-  width: 343px;
+  width: 378px;
 }
 
-.mobile-home .overlap-group1 {
-  align-items: flex-start;
-  background-color: var(--green-background);
-  display: flex;
-  height: 373px;
-  justify-content: flex-end;
-  min-width: 391px;
-  padding: 83.9px 19.9px;
+.mobile-homepage .flex-row-2 {
+  gap: 6px;
+  height: 104px;
+  margin-top: 67px;
+  min-width: 378px;
 }
 
-.mobile-home .we-seek-to-find-the {
-  color: var(--default-stroke);
+.mobile-homepage .fluent-emoji-high-contrastartist {
+  height: 90px;
+  margin-bottom: 4.0px;
+  width: 90px;
+}
+
+.mobile-homepage .join-our-community {
+  color: var(--black);
   font-family: var(--font-family-darkmode_on_cc-light);
   font-size: var(--font-size-xxl);
   font-weight: 300;
   letter-spacing: 0;
   line-height: normal;
-  min-height: 205px;
+  min-height: 104px;
   text-align: center;
-  width: 343px;
+  width: 282px;
+}
+
+.mobile-homepage .frame-container {
+  align-items: flex-start;
+  display: flex;
+  gap: 17px;
+  margin-right: 7.0px;
+  margin-top: 30px;
+  min-width: 283px;
+}
+
+.mobile-homepage .frame-11 {
+  align-items: center;
+  background-color: var(--alto);
+  display: flex;
+  gap: 10px;
+  height: 31px;
+  justify-content: center;
+  padding: 13px 7px;
+  position: relative;
+  width: 58px;
+}
+
+.mobile-homepage .name {
+  letter-spacing: 0;
+  line-height: normal;
+  margin-bottom: -3.00px;
+  margin-left: -3.00px;
+  margin-right: -3.00px;
+  margin-top: -5.00px;
+  position: relative;
+  text-align: center;
+  width: fit-content;
+}
+
+.mobile-homepage .name-1 {
+  letter-spacing: 0;
+  line-height: normal;
+  margin-bottom: -3.00px;
+  margin-left: -3.50px;
+  margin-right: -3.50px;
+  margin-top: -5.00px;
+  position: relative;
+  text-align: center;
+  width: fit-content;
+}
+
+.mobile-homepage .artist {
+  letter-spacing: 0;
+  line-height: normal;
+  margin-bottom: -3.00px;
+  margin-top: -5.00px;
+  position: relative;
+  text-align: center;
+  width: fit-content;
+}
+
+.mobile-homepage .follow-us {
+  align-self: flex-start;
+  color: var(--black);
+  font-family: var(--font-family-darkmode_on_cc-light);
+  font-size: var(--font-size-s);
+  font-weight: 300;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-left: 42px;
+  margin-top: 28px;
+  min-height: 24px;
+  text-align: center;
+  width: 90px;
+}
+
+.mobile-homepage .vector {
+  align-self: flex-start;
+  height: 56px;
+  margin-left: 56px;
+  margin-top: 21px;
+  width: 56px;
+}
+
+.mobile-homepage .flex-row-3 {
+  align-items: center;
+  display: flex;
 }
 @media screen and (max-width: 833px) {
   .screen.ipad-pro-11u34-1 { 
     display: none;
    }
-  .screen.ipad-pro-11u34-2 { 
+  .screen.index-all-breakpoints { 
     display: none;
    }
-  .screen.index-all-breakpoints { 
+  .screen.ipad-pro-11u34-2 { 
     display: none;
    }
 }
 @media screen and (min-width: 834px) and (max-width: 1193px) {
-  .screen.mobile-home { 
-    display: none;
-   }
-  .screen.ipad-pro-11u34-2 { 
+  .screen.mobile-homepage { 
     display: none;
    }
   .screen.index-all-breakpoints { 
     display: none;
    }
+  .screen.ipad-pro-11u34-2 { 
+    display: none;
+   }
 }
 @media screen and (min-width: 1194px) and (max-width: 1511px) {
-  .screen.mobile-home { 
+  .screen.mobile-homepage { 
     display: none;
    }
   .screen.ipad-pro-11u34-1 { 
@@ -612,7 +696,7 @@
    }
 }
 @media screen and (min-width: 1512px) {
-  .screen.mobile-home { 
+  .screen.mobile-homepage { 
     display: none;
    }
   .screen.ipad-pro-11u34-1 { 

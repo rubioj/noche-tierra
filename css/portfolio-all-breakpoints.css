@@ -32,7 +32,7 @@
   width: 657px;
 }
 
-.portfolio-all-breakpoints .rubiojp_logo_vector_ {
+.portfolio-all-breakpoints .rubiojp_logo_vector_-1 {
   height: 142px;
   left: 0;
   object-fit: cover;
@@ -41,7 +41,7 @@
   width: 174px;
 }
 
-.portfolio-all-breakpoints .title {
+.portfolio-all-breakpoints .title-1 {
   left: 40px;
   letter-spacing: 0;
   line-height: normal;
@@ -51,28 +51,8 @@
   width: 617px;
 }
 
-.portfolio-all-breakpoints .navbar {
-  align-items: flex-start;
-  display: inline-flex;
-  left: 174px;
-  position: absolute;
-  top: 109px;
-}
-
 .portfolio-all-breakpoints .navbar-link-place:hover {
   color: #F4A261
-}
-
-.portfolio-all-breakpoints .navbar-link-portfolio {
-  cursor: pointer;
-  height: 46px;
-  letter-spacing: 0;
-  line-height: normal;
-  margin-top: -1.00px;
-  position: relative;
-  text-align: center;
-  transition: all 0.2s ease;
-  width: 221px;
 }
 
 .portfolio-all-breakpoints .navbar-link-portfolio:hover {
@@ -107,6 +87,10 @@
 }
 
 .portfolio-all-breakpoints .instagram {
+  color: var(--kabul);
+  font-family: var(--font-family-rounded_mplus_1c_bold-bold);
+  font-size: var(--font-size-s);
+  font-weight: 700;
   left: 0;
   letter-spacing: 0;
   line-height: normal;
@@ -117,7 +101,7 @@
 }
 
 .portfolio-all-breakpoints .logoinstagram {
-  background-image: url(../img/logo-instagram-1.svg);
+  background-image: url(../img/logo-instagram-2.svg);
   background-size: 100% 100%;
   height: 18px;
   left: 193px;
@@ -203,7 +187,7 @@
   width: 174px;
 }
 
-.portfolio-all-breakpoints .flex-row {
+.portfolio-all-breakpoints .flex-row-1 {
   align-items: flex-start;
   align-self: center;
   display: flex;
@@ -252,6 +236,12 @@
 .portfolio-all-breakpoints .line-2 {
   margin-top: 132px;
 }
+
+.portfolio-all-breakpoints .line {
+  height: 1px;
+  object-fit: cover;
+  width: 1512px;
+}
 /* screen - portfolio-ipad */
 
 .portfolio-ipad {
@@ -264,14 +254,14 @@
   width: 834px;
 }
 
-.portfolio-ipad .overlap-group-1 {
+.portfolio-ipad .overlap-group {
   align-self: flex-start;
   height: 112px;
   position: relative;
   width: 651px;
 }
 
-.portfolio-ipad .rubiojp_logo_vector_-2 {
+.portfolio-ipad .rubiojp_logo_vector_ {
   height: 110px;
   left: 0;
   object-fit: cover;
@@ -280,7 +270,7 @@
   width: 134px;
 }
 
-.portfolio-ipad .title-2 {
+.portfolio-ipad .title {
   left: 29px;
   letter-spacing: 0;
   line-height: normal;
@@ -330,7 +320,7 @@
   width: 221px;
 }
 
-.portfolio-ipad .flex-row-2 {
+.portfolio-ipad .flex-row {
   align-items: flex-start;
   display: flex;
   gap: 103px;
@@ -340,20 +330,20 @@
   min-width: 687px;
 }
 
-.portfolio-ipad .rooster-color-1-1 {
+.portfolio-ipad .rooster-color-1 {
   height: 356px;
   object-fit: cover;
   width: 292px;
 }
 
-.portfolio-ipad .el_che_cigar_256-1-1 {
+.portfolio-ipad .el_che_cigar_256-1 {
   align-self: flex-end;
   height: 356px;
   object-fit: cover;
   width: 292px;
 }
 
-.portfolio-ipad .we-invite-you-to-exp-1 {
+.portfolio-ipad .we-invite-you-to-exp {
   letter-spacing: 0;
   line-height: normal;
   margin-left: 18.0px;
@@ -373,7 +363,7 @@
   width: 390px;
 }
 
-.portfolio-mobile .flex-row-1 {
+.portfolio-mobile .flex-row-2 {
   align-items: flex-start;
   align-self: flex-start;
   display: flex;
@@ -381,13 +371,13 @@
   min-width: 366px;
 }
 
-.portfolio-mobile .overlap-group {
+.portfolio-mobile .overlap-group-1 {
   height: 161px;
   position: relative;
   width: 231px;
 }
 
-.portfolio-mobile .rubiojp_logo_vector_-1 {
+.portfolio-mobile .rubiojp_logo_vector_-2 {
   height: 132px;
   left: 0;
   object-fit: cover;
@@ -396,7 +386,7 @@
   width: 141px;
 }
 
-.portfolio-mobile .title-1 {
+.portfolio-mobile .title-2 {
   left: 0;
   letter-spacing: 0;
   line-height: normal;
@@ -417,14 +407,14 @@
   width: 41px;
 }
 
-.portfolio-mobile .we-invite-you-to-exp {
+.portfolio-mobile .we-invite-you-to-exp-1 {
   height: 111px;
   margin-right: 8.85px;
   margin-top: 84px;
   width: 287px;
 }
 
-.portfolio-mobile .rooster-color-1 {
+.portfolio-mobile .rooster-color-1-1 {
   height: 356px;
   margin-right: 2.0px;
   margin-top: 52px;
@@ -432,7 +422,7 @@
   width: 292px;
 }
 
-.portfolio-mobile .el_che_cigar_256-1 {
+.portfolio-mobile .el_che_cigar_256-1-1 {
   height: 356px;
   margin-right: 2.0px;
   margin-top: 69px;
@@ -454,10 +444,10 @@
   width: 292px;
 }
 @media screen and (max-width: 833px) {
-  .screen.portfolio-all-breakpoints { 
+  .screen.portfolio-ipad { 
     display: none;
    }
-  .screen.portfolio-ipad { 
+  .screen.portfolio-all-breakpoints { 
     display: none;
    }
 }
@@ -470,10 +460,10 @@
    }
 }
 @media screen and (min-width: 1512px) {
-  .screen.portfolio-mobile { 
+  .screen.portfolio-ipad { 
     display: none;
    }
-  .screen.portfolio-ipad { 
+  .screen.portfolio-mobile { 
     display: none;
    }
 }

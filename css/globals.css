@@ -89,6 +89,14 @@
   width: 41px;
 }
 
+.navbar {
+  align-items: flex-start;
+  display: inline-flex;
+  left: 174px;
+  position: absolute;
+  top: 109px;
+}
+
 .navbar-link-place {
   cursor: pointer;
   height: 46px;
@@ -101,6 +109,18 @@
   width: 174px;
 }
 
+.navbar-link-portfolio {
+  cursor: pointer;
+  height: 46px;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-top: -1.00px;
+  position: relative;
+  text-align: center;
+  transition: all 0.2s ease;
+  width: 221px;
+}
+
 .navbar-link-store {
   height: 46px;
   letter-spacing: 0;
@@ -111,58 +131,10 @@
   width: 174px;
 }
 
-.line {
-  height: 1px;
-  object-fit: cover;
-  width: 1512px;
-}
-
-.navbar-link {
-  height: 46px;
-  letter-spacing: 0;
-  line-height: normal;
-  margin-top: -1.00px;
-  position: relative;
-  text-align: center;
-  width: 174px;
-}
-
-.newsletter {
-  color: var(--default-stroke);
-  font-family: var(--font-family-funkydori-regular);
+.span1 {
+  color: var(--west-coast);
+  font-family: var(--font-family-darkmode_on_cc-lightitalic);
   font-size: var(--font-size-xxl);
-  font-weight: 400;
-  left: 20px;
-  letter-spacing: 0;
-  line-height: normal;
-  position: absolute;
-  text-align: center;
-  top: 0;
-  white-space: nowrap;
-  width: 329px;
-}
-
-.email {
-  letter-spacing: 0;
-  line-height: normal;
-  min-height: 25px;
-  width: 167px;
-}
-
-.overlap-group-container-2 {
-  height: 41px;
-  left: 569px;
-  position: absolute;
-  top: 20px;
-  width: 447px;
-}
-
-.subscribe {
-  left: 0;
-  letter-spacing: 0;
-  line-height: normal;
-  position: absolute;
-  text-align: center;
-  top: 3px;
-  width: 251px;
+  font-style: italic;
+  font-weight: 300;
 }

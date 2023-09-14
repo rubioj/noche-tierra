@@ -1,11 +1,13 @@
 :root { 
   --akaroa: #d3c1a5;
+  --alto: #d9d9d9;
   --black: #000000;
   --buttons: #a68f79;
   --default-stroke: #574b3f;
   --form-background: #d3c1a557;
   --green-background: #70977580;
   --heading-1: #f4a261;
+  --icons: #93b1d8;
   --kabul: #574a3e;
   --west-coast: #5e5324;
   --white: #ffffff;
@@ -14,14 +16,13 @@
   --font-size-m: 24px;
   --font-size-s: 16px;
   --font-size-xl: 32px;
+  --font-size-xs: 10px;
   --font-size-xxl: 36px;
   --font-size-xxxl: 48px;
-  --font-size-xxxxl: 96px;
  
   --font-family-darkmode_on_cc-light: "Darkmode On CC-Light", Helvetica;
   --font-family-darkmode_on_cc-lightitalic: "Darkmode On CC-LightItalic", Helvetica;
   --font-family-fjord-one: "Fjord-One", Helvetica;
-  --font-family-funkydori-regular: "Funkydori-Regular", Helvetica;
   --font-family-ofelia_text-regular: "Ofelia Text-Regular", Helvetica;
   --font-family-rounded_mplus_1c_bold-bold: "Rounded Mplus 1c Bold-Bold", Helvetica;
 }
@@ -33,18 +34,18 @@
   font-weight: 400;
 }
 
-.roundedmplus1cbold-bold-kabul-16px {
-  color: var(--kabul);
-  font-family: var(--font-family-rounded_mplus_1c_bold-bold);
-  font-size: var(--font-size-s);
-  font-style: normal;
-  font-weight: 700;
-}
-
 .ofeliatext-regular-normal-sandy-brown-48px {
   color: var(--heading-1);
   font-family: var(--font-family-ofelia_text-regular);
   font-size: var(--font-size-xxxl);
+  font-style: normal;
+  font-weight: 400;
+}
+
+.ofeliatext-regular-normal-sandy-brown-36px {
+  color: var(--heading-1);
+  font-family: var(--font-family-ofelia_text-regular);
+  font-size: var(--font-size-xxl);
   font-style: normal;
   font-weight: 400;
 }
@@ -57,18 +58,18 @@
   font-weight: 400;
 }
 
+.darkmodeoncc-light-black-10px {
+  color: var(--black);
+  font-family: var(--font-family-darkmode_on_cc-light);
+  font-size: var(--font-size-xs);
+  font-style: normal;
+  font-weight: 300;
+}
+
 .darkmodeoncc-light-west-coast-36px {
   color: var(--west-coast);
   font-family: var(--font-family-darkmode_on_cc-light);
   font-size: var(--font-size-xxl);
   font-style: normal;
   font-weight: 300;
-}
-
-.ofeliatext-regular-normal-sandy-brown-36px {
-  color: var(--heading-1);
-  font-family: var(--font-family-ofelia_text-regular);
-  font-size: var(--font-size-xxl);
-  font-style: normal;
-  font-weight: 400;
 }

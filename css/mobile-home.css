@@ -1,0 +1,172 @@
+/* screen - mobile-home */
+
+.mobile-home {
+  align-items: center;
+  background-color: var(--white);
+  display: flex;
+  flex-direction: column;
+  height: 1632px;
+  overflow: hidden;
+  width: 390px;
+}
+
+.mobile-home .flex-row {
+  align-items: flex-start;
+  display: flex;
+  margin-left: 2.0px;
+  margin-top: 16px;
+  min-width: 372px;
+}
+
+.mobile-home .rubiojp_logo_vector_ {
+  height: 132px;
+  object-fit: cover;
+  width: 141px;
+}
+
+.mobile-home .flex-col {
+  align-items: flex-end;
+  display: flex;
+  flex-direction: column;
+  gap: 33px;
+  min-height: 95px;
+  width: 231px;
+}
+
+.mobile-home .hamburger-menu {
+  align-items: flex-start;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  margin-right: 6px;
+  min-height: 25px;
+  width: 41px;
+}
+
+.mobile-home .title {
+  letter-spacing: 0;
+  line-height: normal;
+  min-height: 37px;
+  text-align: center;
+  white-space: nowrap;
+  width: 231px;
+}
+
+.mobile-home .place-for-artists {
+  align-items: flex-start;
+  display: flex;
+  margin-left: 3.0px;
+  margin-top: 34px;
+  min-width: 393px;
+}
+
+.mobile-home .overlap-group {
+  align-items: center;
+  background-color: var(--form-background);
+  display: flex;
+  height: 131px;
+  justify-content: flex-end;
+  min-width: 391px;
+  padding: 0 18.9px;
+}
+
+.mobile-home .we-are-a-place-for-artists {
+  color: var(--default-stroke);
+  font-family: var(--font-family-darkmode_on_cc-light);
+  font-size: var(--font-size-xl);
+  font-weight: 300;
+  letter-spacing: 0;
+  line-height: normal;
+  min-height: 97px;
+  text-align: center;
+  width: 343px;
+}
+
+.mobile-home .snoqualmie-2 {
+  height: 586px;
+  object-fit: cover;
+  width: 390px;
+}
+
+.mobile-home .mobile-home-item {
+  align-items: flex-start;
+  display: flex;
+  margin-left: 3.0px;
+  min-width: 393px;
+}
+
+.mobile-home .overlap-group2 {
+  height: 225px;
+  position: relative;
+  width: 391px;
+}
+
+.mobile-home .arte-tierra-is-juan {
+  left: 30px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 27px;
+  width: 327px;
+}
+
+.mobile-home .we-are {
+  background-color: var(--form-background);
+  height: 225px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 391px;
+}
+
+.mobile-home .natutal-homepage {
+  align-items: flex-start;
+  display: flex;
+  margin-left: 1.0px;
+  min-width: 391px;
+}
+
+.mobile-home .overlap-group-1 {
+  align-items: center;
+  background-color: #f4a26180;
+  display: flex;
+  height: 135px;
+  min-width: 391px;
+  padding: 0 22.0px;
+}
+
+.mobile-home .we-use-art-to-connec {
+  color: var(--default-stroke);
+  font-family: var(--font-family-darkmode_on_cc-light);
+  font-size: var(--font-size-m);
+  font-weight: 300;
+  letter-spacing: 0;
+  line-height: normal;
+  min-height: 67px;
+  text-align: center;
+  width: 343px;
+}
+
+.mobile-home .overlap-group1 {
+  align-items: flex-start;
+  background-color: var(--green-background);
+  display: flex;
+  height: 373px;
+  justify-content: flex-end;
+  min-width: 391px;
+  padding: 83.9px 19.9px;
+}
+
+.mobile-home .we-seek-to-find-the {
+  color: var(--default-stroke);
+  font-family: var(--font-family-darkmode_on_cc-light);
+  font-size: var(--font-size-xxl);
+  font-weight: 300;
+  letter-spacing: 0;
+  line-height: normal;
+  min-height: 205px;
+  text-align: center;
+  width: 343px;
+}
